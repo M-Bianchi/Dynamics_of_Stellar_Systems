@@ -1,0 +1,1 @@
+cmd /c 'nbody_sh1 < twobody.in > twobody.out'

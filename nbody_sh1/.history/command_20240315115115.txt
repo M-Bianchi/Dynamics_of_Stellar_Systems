@@ -1,0 +1,2 @@
+cmd /c 'nbody_sh1 < twobody.in > twobody.out'
+cmd /c 'nbody_sh1 < twobody.in | awk '{print $2 " " $3}'  > twobody.out'
