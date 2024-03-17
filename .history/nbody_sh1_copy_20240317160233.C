@@ -261,7 +261,6 @@ void put_snapshot(const real mass[], const real pos[][NDIM],
         for (int k = 0; k < NDIM; k++)
             cout << ' ' << vel[i][k];         // velocity of particle i
     }
-    cout << endl;
 }
     
 /*-----------------------------------------------------------------------------
