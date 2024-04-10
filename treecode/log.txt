@@ -1,0 +1,3313 @@
+
+Hierarchical N-body code (theta scan)
+
+   nbody     dtime       eps     theta   usequad     dtout     tstop
+  100000   0.00300    0.0010      1.00     false   0.01000    1.5000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      10   3.096     988   9396674  52833434   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.000 0.60053 0.00000 0.60053 0.00000 0.00000 0.00000   0.005
+
+	data output to file sphere.out at time 0.000000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      10   3.096     988   9397018  52833438   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.003 0.60053 0.00000 0.60053 0.00000 0.00000 0.00000   0.012
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      12   3.096     988   9397175  52834212   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.006 0.60052 0.00001 0.60054 0.00002 0.00000 0.00000   0.017
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   3.095     988   9382997  52838617   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.009 0.60053 0.00003 0.60055 0.00004 0.00000 0.00000   0.022
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.094     987   9374813  52840360   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.012 0.60053 0.00004 0.60057 0.00007 0.00000 0.00000   0.027
+
+	data output to file sphere.out at time 0.012000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   3.092     988   9372932  52843820   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.015 0.60052 0.00007 0.60059 0.00012 0.00000 0.00000   0.034
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.090     990   9367486  52845212   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.018 0.60052 0.00010 0.60062 0.00017 0.00000 0.00000   0.039
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   3.088     990   9365260  52851361   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.021 0.60052 0.00014 0.60066 0.00023 0.00000 0.00000   0.044
+
+	data output to file sphere.out at time 0.021000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.085     991   9355967  52856768   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.024 0.60052 0.00018 0.60070 0.00030 0.00000 0.00000   0.050
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   3.082     991   9360048  52859810   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.027 0.60052 0.00023 0.60075 0.00038 0.00000 0.00000   0.055
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   3.078     991   9354093  52866162   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.030 0.60052 0.00028 0.60081 0.00047 0.00000 0.00000   0.060
+
+	data output to file sphere.out at time 0.030000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.074     991   9345334  52880996   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.033 0.60052 0.00034 0.60086 0.00057 0.00000 0.00000   0.067
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.068     991   9332080  52888899   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.036 0.60052 0.00041 0.60093 0.00067 0.00000 0.00000   0.072
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.067     990   9330927  52896288   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.039 0.60052 0.00048 0.60100 0.00079 0.00000 0.00000   0.077
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.065     990   9328855  52913005   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.042 0.60052 0.00055 0.60107 0.00092 0.00000 0.00000   0.082
+
+	data output to file sphere.out at time 0.042000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.063     990   9348842  52886471   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.045 0.60052 0.00063 0.60116 0.00105 0.00000 0.00000   0.088
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   3.058     988   9347875  52902635   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.048 0.60053 0.00072 0.60124 0.00119 0.00000 0.00000   0.093
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   3.054     982   9339110  52914058   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.051 0.60053 0.00081 0.60134 0.00135 0.00000 0.00000   0.098
+
+	data output to file sphere.out at time 0.051000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.054     981   9361031  52916578   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.054 0.60053 0.00091 0.60143 0.00151 0.00000 0.00000   0.105
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      18   3.049     984   9363332  52926031   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.057 0.60052 0.00101 0.60153 0.00168 0.00000 0.00000   0.110
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   3.047     983   9372348  52926319   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.060 0.60053 0.00112 0.60165 0.00186 0.00000 0.00000   0.115
+
+	data output to file sphere.out at time 0.060000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      18   3.041     980   9349301  52940843   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.063 0.60053 0.00124 0.60176 0.00205 0.00000 0.00000   0.122
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.038     979   9351912  52961157   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.066 0.60053 0.00136 0.60188 0.00225 0.00000 0.00000   0.127
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.036     978   9351882  52960197   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.069 0.60053 0.00148 0.60201 0.00246 0.00000 0.00000   0.132
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.032     978   9355003  52957076   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.072 0.60053 0.00161 0.60214 0.00268 0.00000 0.00000   0.137
+
+	data output to file sphere.out at time 0.072000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.030     978   9355631  52974951   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.075 0.60053 0.00175 0.60228 0.00291 0.00000 0.00000   0.143
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   3.025     982   9343235  52989394   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.078 0.60053 0.00189 0.60242 0.00314 0.00000 0.00000   0.149
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   3.020     983   9320430  53025913   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.081 0.60053 0.00204 0.60257 0.00339 0.00000 0.00000   0.154
+
+	data output to file sphere.out at time 0.081000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.017     981   9308569  53014237   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.084 0.60053 0.00220 0.60273 0.00364 0.00000 0.00000   0.160
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.013     982   9285625  53031975   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.087 0.60053 0.00236 0.60289 0.00391 0.00000 0.00000   0.165
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.007     979   9282632  53040441   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.090 0.60054 0.00252 0.60306 0.00418 0.00000 0.00000   0.171
+
+	data output to file sphere.out at time 0.090000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.004     979   9279673  53073021   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.093 0.60054 0.00269 0.60323 0.00446 0.00000 0.00000   0.177
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   2.994     984   9283113  53093923   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.096 0.60053 0.00287 0.60340 0.00475 0.00000 0.00000   0.182
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.989     982   9276986  53141577   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.099 0.60053 0.00305 0.60358 0.00506 0.00000 0.00000   0.188
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.987     981   9246858  53149902   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.102 0.60053 0.00324 0.60377 0.00537 0.00000 0.00000   0.193
+
+	data output to file sphere.out at time 0.102000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   2.980     982   9235915  53137706   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.105 0.60053 0.00343 0.60396 0.00569 0.00000 0.00000   0.199
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.980     980   9245858  53144329   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.108 0.60053 0.00363 0.60416 0.00601 0.00000 0.00000   0.204
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.978     980   9215782  53190302   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.111 0.60053 0.00384 0.60436 0.00635 0.00000 0.00000   0.209
+
+	data output to file sphere.out at time 0.111000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.974     982   9258348  53176040   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.114 0.60053 0.00405 0.60457 0.00670 0.00000 0.00000   0.216
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.969     982   9262903  53197321   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.117 0.60053 0.00427 0.60479 0.00705 0.00000 0.00000   0.221
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.965     981   9278662  53208505   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.120 0.60053 0.00449 0.60502 0.00742 0.00000 0.00000   0.227
+
+	data output to file sphere.out at time 0.120000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.961     981   9352661  53168721   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.123 0.60053 0.00472 0.60525 0.00779 0.00000 0.00000   0.233
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.960     981   9358705  53181809   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.126 0.60053 0.00495 0.60548 0.00818 0.00000 0.00000   0.238
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.951     983   9338597  53201474   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.129 0.60054 0.00519 0.60573 0.00857 0.00000 0.00000   0.243
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.951     981   9342928  53238468   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.132 0.60053 0.00544 0.60597 0.00897 0.00000 0.00000   0.248
+
+	data output to file sphere.out at time 0.132000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.943     978   9311407  53250102   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.135 0.60053 0.00569 0.60622 0.00939 0.00000 0.00000   0.255
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   2.939     978   9338964  53219009   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.138 0.60053 0.00595 0.60648 0.00981 0.00000 0.00000   0.260
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   2.933     978   9317121  53245037   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.141 0.60053 0.00621 0.60674 0.01024 0.00000 0.00000   0.265
+
+	data output to file sphere.out at time 0.141000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.928     979   9293094  53280382   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.144 0.60053 0.00648 0.60701 0.01068 0.00000 0.00000   0.272
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.923     980   9290640  53270552   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.147 0.60053 0.00676 0.60729 0.01113 0.00000 0.00000   0.277
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.922     978   9219138  53290436   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.150 0.60053 0.00704 0.60757 0.01159 0.00000 0.00000   0.282
+
+	data output to file sphere.out at time 0.150000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.919     980   9352086  53158586   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.153 0.60053 0.00733 0.60786 0.01205 0.00000 0.00000   0.288
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.913     982   9401591  53126389   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.156 0.60054 0.00762 0.60816 0.01253 0.00000 0.00000   0.293
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.913     980   9376044  53087829   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.159 0.60054 0.00792 0.60846 0.01302 0.00000 0.00000   0.298
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.905     976   9362455  53116847   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.162 0.60054 0.00823 0.60876 0.01351 0.00000 0.00000   0.303
+
+	data output to file sphere.out at time 0.162000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.898     973   9332889  53140190   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.165 0.60053 0.00854 0.60907 0.01402 0.00000 0.00000   0.310
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   2.891     970   9332748  53172975   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.168 0.60053 0.00886 0.60939 0.01453 0.00000 0.00001   0.315
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   2.886     968   9343310  53166499   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.171 0.60054 0.00918 0.60972 0.01506 0.00000 0.00001   0.320
+
+	data output to file sphere.out at time 0.171000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.884     969   9376537  53150856   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.174 0.60053 0.00951 0.61005 0.01559 0.00000 0.00001   0.327
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.881     970   9452233  53018904   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.177 0.60054 0.00985 0.61038 0.01614 0.00000 0.00001   0.332
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.873     969   9450986  53036200   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.180 0.60053 0.01019 0.61073 0.01669 0.00000 0.00001   0.337
+
+	data output to file sphere.out at time 0.180000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   2.870     975   9502735  53009572   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.183 0.60054 0.01054 0.61108 0.01725 0.00000 0.00001   0.344
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.864     976   9455441  53017285   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.186 0.60054 0.01090 0.61144 0.01782 0.00000 0.00001   0.349
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   2.859     973   9449649  53043399   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.189 0.60054 0.01126 0.61180 0.01840 0.00000 0.00001   0.354
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.857     974   9460792  53066975   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.192 0.60054 0.01163 0.61217 0.01899 0.00000 0.00001   0.359
+
+	data output to file sphere.out at time 0.192000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.854     973   9486604  53056054   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.195 0.60054 0.01200 0.61254 0.01959 0.00000 0.00001   0.366
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.852     975   9597982  52960984   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.198 0.60054 0.01238 0.61292 0.02020 0.00000 0.00001   0.371
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      18   2.849     976   9639609  52932941   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.201 0.60054 0.01277 0.61331 0.02082 0.00000 0.00001   0.376
+
+	data output to file sphere.out at time 0.201000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      18   2.844     974   9590800  52894855   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.204 0.60054 0.01316 0.61371 0.02145 0.00000 0.00001   0.383
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.836     969   9576009  52871883   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.207 0.60054 0.01357 0.61411 0.02209 0.00000 0.00001   0.388
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.831     971   9589241  52880465   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.210 0.60054 0.01397 0.61452 0.02274 0.00000 0.00001   0.393
+
+	data output to file sphere.out at time 0.210000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.824     969   9564531  52879940   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.213 0.60054 0.01439 0.61493 0.02340 0.00000 0.00001   0.400
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   2.821     968   9585376  52888399   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.216 0.60054 0.01481 0.61535 0.02406 0.00000 0.00001   0.405
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.816     970   9582969  52906898   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.219 0.60054 0.01523 0.61578 0.02474 0.00000 0.00001   0.410
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.809     971   9608500  52877126   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.222 0.60054 0.01567 0.61621 0.02542 0.00000 0.00001   0.415
+
+	data output to file sphere.out at time 0.222000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.809     966   9668284  52758845   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.225 0.60054 0.01611 0.61665 0.02612 0.00001 0.00001   0.421
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.802     972   9585742  52797440   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.228 0.60055 0.01655 0.61710 0.02682 0.00001 0.00001   0.426
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.800     964   9532679  52807151   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.231 0.60054 0.01701 0.61755 0.02754 0.00001 0.00001   0.431
+
+	data output to file sphere.out at time 0.231000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      18   2.790     961   9531341  52849606   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.234 0.60054 0.01747 0.61801 0.02827 0.00001 0.00001   0.438
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.786     960   9645405  52746315   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.237 0.60055 0.01794 0.61848 0.02900 0.00001 0.00001   0.443
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.788     960   9605189  52782110   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.240 0.60055 0.01841 0.61896 0.02974 0.00001 0.00001   0.449
+
+	data output to file sphere.out at time 0.240000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.783     966   9636055  52754596   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.243 0.60055 0.01889 0.61944 0.03050 0.00001 0.00001   0.455
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.778     966   9618807  52748691   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.246 0.60055 0.01938 0.61993 0.03126 0.00001 0.00001   0.460
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.775     968   9654422  52687008   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.249 0.60055 0.01988 0.62043 0.03204 0.00001 0.00001   0.466
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.772     963   9917621  52446075   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.252 0.60055 0.02038 0.62093 0.03282 0.00001 0.00001   0.471
+
+	data output to file sphere.out at time 0.252000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.768     960   9953015  52401673   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.255 0.60055 0.02089 0.62144 0.03361 0.00001 0.00001   0.477
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.765     963   9922383  52462476   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.258 0.60056 0.02141 0.62196 0.03442 0.00001 0.00001   0.482
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.760     963   9929229  52389972   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.261 0.60056 0.02193 0.62249 0.03523 0.00001 0.00001   0.487
+
+	data output to file sphere.out at time 0.261000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.753     963   9918654  52332957   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.264 0.60056 0.02246 0.62302 0.03605 0.00001 0.00001   0.494
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.749     970   9873269  52398101   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.267 0.60056 0.02300 0.62356 0.03688 0.00001 0.00001   0.499
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.740     967   9761335  52402938   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.270 0.60056 0.02354 0.62410 0.03772 0.00001 0.00001   0.504
+
+	data output to file sphere.out at time 0.270000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.738     966   9790793  52412489   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.273 0.60056 0.02410 0.62466 0.03858 0.00001 0.00001   0.511
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.731     968   9698146  52458600   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.276 0.60056 0.02466 0.62522 0.03944 0.00001 0.00001   0.517
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.728     965   9620569  52441358   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.279 0.60056 0.02523 0.62578 0.04031 0.00001 0.00001   0.522
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.724     963   9545955  52499876   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.282 0.60056 0.02580 0.62636 0.04119 0.00001 0.00001   0.527
+
+	data output to file sphere.out at time 0.282000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.719     960   9382360  52567691   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.285 0.60055 0.02638 0.62694 0.04208 0.00001 0.00001   0.534
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.717     950   9268387  52578759   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.288 0.60056 0.02697 0.62753 0.04298 0.00001 0.00001   0.539
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.711     954   9155948  52577175   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.291 0.60056 0.02757 0.62813 0.04389 0.00001 0.00001   0.545
+
+	data output to file sphere.out at time 0.291000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.709     952   9100075  52613477   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.294 0.60056 0.02818 0.62874 0.04482 0.00001 0.00001   0.551
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.705     947   9045018  52580270   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.297 0.60056 0.02879 0.62935 0.04575 0.00001 0.00001   0.557
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.703     951   9056103  52626168   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.300 0.60056 0.02941 0.62998 0.04669 0.00001 0.00001   0.562
+
+	data output to file sphere.out at time 0.300000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   2.698     949   9056802  52646994   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.303 0.60056 0.03004 0.63060 0.04764 0.00001 0.00001   0.569
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.690     951   8977244  52684562   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.306 0.60056 0.03068 0.63124 0.04860 0.00001 0.00001   0.574
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.693     951   8910396  52691196   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.309 0.60056 0.03133 0.63188 0.04958 0.00001 0.00001   0.579
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.689     950   8877714  52719198   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.312 0.60056 0.03198 0.63254 0.05056 0.00001 0.00001   0.585
+
+	data output to file sphere.out at time 0.312000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.681     952   8864964  52763466   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.315 0.60056 0.03264 0.63320 0.05155 0.00001 0.00001   0.591
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.679     950   8828918  52816142   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.318 0.60056 0.03331 0.63387 0.05255 0.00001 0.00001   0.596
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.676     953   8848775  52791152   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.321 0.60056 0.03399 0.63455 0.05356 0.00001 0.00001   0.601
+
+	data output to file sphere.out at time 0.321000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.672     953   8899425  52763900   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.324 0.60056 0.03467 0.63523 0.05458 0.00001 0.00001   0.608
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      18   2.667     952   8865561  52791895   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.327 0.60056 0.03537 0.63592 0.05562 0.00001 0.00001   0.613
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.669     953   8874645  52799159   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.330 0.60056 0.03607 0.63663 0.05666 0.00001 0.00001   0.618
+
+	data output to file sphere.out at time 0.330000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.666     955   8829274  52858562   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.333 0.60055 0.03678 0.63734 0.05771 0.00001 0.00001   0.625
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.657     957   8795173  52898255   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.336 0.60056 0.03750 0.63806 0.05877 0.00001 0.00001   0.630
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   2.653     960   8833908  52902706   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.339 0.60056 0.03823 0.63879 0.05985 0.00001 0.00001   0.635
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   2.653     960   8783518  52946482   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.342 0.60055 0.03897 0.63952 0.06093 0.00001 0.00001   0.640
+
+	data output to file sphere.out at time 0.342000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.644     963   8720346  52982537   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.345 0.60054 0.03971 0.64026 0.06203 0.00001 0.00001   0.647
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.642     962   8705228  53041466   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.348 0.60055 0.04047 0.64101 0.06313 0.00001 0.00001   0.652
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.642     962   8782624  53000570   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.351 0.60055 0.04123 0.64178 0.06424 0.00001 0.00001   0.657
+
+	data output to file sphere.out at time 0.351000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.634     965   8834397  53047676   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.354 0.60055 0.04200 0.64255 0.06537 0.00001 0.00001   0.663
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.636     963   8897668  53011301   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.357 0.60054 0.04278 0.64333 0.06650 0.00001 0.00001   0.668
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.633     962   8912243  53042961   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.360 0.60055 0.04357 0.64412 0.06765 0.00001 0.00001   0.674
+
+	data output to file sphere.out at time 0.360000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.626     965   8927360  53079971   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.363 0.60055 0.04437 0.64492 0.06881 0.00001 0.00001   0.680
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.625     969   8987255  53060155   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.366 0.60055 0.04518 0.64573 0.06997 0.00001 0.00001   0.686
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      18   2.625     967   8964393  53059714   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.369 0.60054 0.04600 0.64654 0.07115 0.00001 0.00001   0.691
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.618     969   8976991  53093607   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.372 0.60054 0.04683 0.64737 0.07234 0.00001 0.00001   0.696
+
+	data output to file sphere.out at time 0.372000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.616     972   9134557  52959052   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.375 0.60054 0.04767 0.64821 0.07354 0.00001 0.00001   0.703
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.618     973   9103522  52972098   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.378 0.60054 0.04851 0.64905 0.07474 0.00001 0.00001   0.708
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.617     978   9329274  52768226   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.381 0.60053 0.04937 0.64990 0.07596 0.00001 0.00001   0.714
+
+	data output to file sphere.out at time 0.381000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.615     984   9363966  52677768   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.384 0.60054 0.05024 0.65078 0.07720 0.00001 0.00001   0.720
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.607     976   9418916  52605428   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.387 0.60054 0.05111 0.65165 0.07844 0.00001 0.00001   0.725
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.609     968   9376280  52556483   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.390 0.60053 0.05200 0.65254 0.07969 0.00001 0.00001   0.731
+
+	data output to file sphere.out at time 0.390000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.608     963   9390268  52377532   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.393 0.60053 0.05290 0.65343 0.08096 0.00001 0.00001   0.737
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.602     960   9564226  52120193   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.396 0.60053 0.05380 0.65434 0.08223 0.00001 0.00001   0.742
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.603     954   9480788  52017573   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.399 0.60053 0.05472 0.65525 0.08351 0.00001 0.00001   0.747
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.598     949   9599663  51675883   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.402 0.60053 0.05565 0.65618 0.08481 0.00001 0.00001   0.752
+
+	data output to file sphere.out at time 0.402000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.601     950   9622016  51558238   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.405 0.60053 0.05659 0.65712 0.08611 0.00001 0.00001   0.759
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.590     945   9595047  51451519   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.408 0.60053 0.05754 0.65806 0.08743 0.00001 0.00001   0.764
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.584     943   9463246  51418721   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.411 0.60053 0.05850 0.65903 0.08876 0.00001 0.00001   0.770
+
+	data output to file sphere.out at time 0.411000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.584     939   9519435  51170561   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.414 0.60053 0.05946 0.65999 0.09010 0.00001 0.00002   0.776
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.580     936   9270389  51136017   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.417 0.60053 0.06045 0.66097 0.09145 0.00001 0.00002   0.781
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.571     933   9130594  51172012   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.420 0.60052 0.06144 0.66196 0.09281 0.00001 0.00002   0.787
+
+	data output to file sphere.out at time 0.420000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.575     937   9108606  51052246   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.423 0.60051 0.06244 0.66295 0.09418 0.00001 0.00002   0.793
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.575     932   8866813  51034175   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.426 0.60052 0.06345 0.66397 0.09557 0.00001 0.00002   0.799
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   2.576     931   8927381  50963062   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.429 0.60053 0.06448 0.66500 0.09696 0.00001 0.00002   0.804
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.575     930   8924853  50918057   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.432 0.60052 0.06551 0.66603 0.09836 0.00001 0.00002   0.809
+
+	data output to file sphere.out at time 0.432000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.572     931   8929767  50956316   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.435 0.60051 0.06656 0.66707 0.09978 0.00001 0.00002   0.816
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.572     936   8897409  51031647   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.438 0.60051 0.06762 0.66813 0.10121 0.00001 0.00002   0.821
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.568     944   8862082  51085757   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.441 0.60051 0.06869 0.66920 0.10265 0.00001 0.00002   0.826
+
+	data output to file sphere.out at time 0.441000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.569     939   8894350  51113751   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.444 0.60051 0.06978 0.67028 0.10410 0.00001 0.00002   0.833
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.565     935   8961369  51069109   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.447 0.60051 0.07087 0.67138 0.10556 0.00001 0.00002   0.838
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.567     934   8790018  51131878   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.450 0.60050 0.07198 0.67248 0.10703 0.00001 0.00002   0.843
+
+	data output to file sphere.out at time 0.450000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.562     940   8768358  51184823   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.453 0.60050 0.07310 0.67360 0.10852 0.00001 0.00002   0.850
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.563     938   8775372  51174925   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.456 0.60049 0.07423 0.67472 0.11002 0.00001 0.00002   0.855
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.561     930   8713809  51208639   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.459 0.60049 0.07537 0.67587 0.11152 0.00001 0.00002   0.860
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.557     933   8643477  51262315   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.462 0.60049 0.07653 0.67702 0.11304 0.00001 0.00002   0.865
+
+	data output to file sphere.out at time 0.462000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.557     929   8596643  51330861   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.465 0.60049 0.07770 0.67819 0.11457 0.00001 0.00002   0.872
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.550     932   8582107  51384940   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.468 0.60048 0.07889 0.67937 0.11612 0.00001 0.00002   0.877
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.542     930   8455857  51440072   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.471 0.60048 0.08008 0.68056 0.11767 0.00001 0.00002   0.882
+
+	data output to file sphere.out at time 0.471000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.538     938   8377240  51490903   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.474 0.60048 0.08130 0.68177 0.11924 0.00001 0.00002   0.888
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.535     934   8423793  51496070   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.477 0.60047 0.08252 0.68299 0.12082 0.00001 0.00002   0.894
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.528     933   8402899  51534047   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.480 0.60047 0.08376 0.68423 0.12241 0.00001 0.00002   0.899
+
+	data output to file sphere.out at time 0.480000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.530     937   8440290  51521321   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.483 0.60046 0.08501 0.68547 0.12402 0.00001 0.00002   0.905
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.528     940   8508424  51537951   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.486 0.60046 0.08627 0.68673 0.12563 0.00001 0.00002   0.911
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.527     937   8603236  51562189   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.489 0.60046 0.08755 0.68802 0.12725 0.00001 0.00002   0.916
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.524     947   8554971  51585980   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.492 0.60045 0.08884 0.68930 0.12889 0.00001 0.00002   0.921
+
+	data output to file sphere.out at time 0.492000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.520     940   8596542  51625231   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.495 0.60045 0.09015 0.69060 0.13054 0.00001 0.00002   0.928
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.521     940   8643375  51657564   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.498 0.60043 0.09147 0.69190 0.13220 0.00001 0.00002   0.933
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.521     937   8660688  51683215   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.501 0.60044 0.09281 0.69325 0.13387 0.00001 0.00002   0.938
+
+	data output to file sphere.out at time 0.501000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.513     937   8635183  51689831   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.504 0.60044 0.09416 0.69460 0.13556 0.00001 0.00002   0.945
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.515     941   8649102  51696959   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.507 0.60043 0.09552 0.69595 0.13725 0.00001 0.00002   0.950
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.515     936   8688432  51645554   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.510 0.60043 0.09690 0.69733 0.13896 0.00001 0.00002   0.955
+
+	data output to file sphere.out at time 0.510000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.514     939   8658463  51635810   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.513 0.60042 0.09830 0.69872 0.14069 0.00001 0.00002   0.962
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.508     935   8688475  51649059   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.516 0.60042 0.09971 0.70013 0.14242 0.00001 0.00002   0.967
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.510     945   8744304  51668984   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.519 0.60041 0.10114 0.70155 0.14417 0.00001 0.00002   0.972
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.511     940   8617830  51674383   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.522 0.60040 0.10259 0.70299 0.14593 0.00001 0.00002   0.977
+
+	data output to file sphere.out at time 0.522000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.504     941   8537681  51717021   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.525 0.60040 0.10405 0.70445 0.14770 0.00001 0.00002   0.984
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.505     947   8586601  51721642   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.528 0.60039 0.10552 0.70591 0.14949 0.00001 0.00002   0.989
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.505     948   8502766  51787798   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.531 0.60039 0.10702 0.70741 0.15128 0.00001 0.00002   0.994
+
+	data output to file sphere.out at time 0.531000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.500     946   8479056  51843840   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.534 0.60038 0.10853 0.70891 0.15309 0.00001 0.00002   1.001
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.500     948   8533549  51863752   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.537 0.60038 0.11006 0.71043 0.15491 0.00001 0.00002   1.006
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.499     955   8429488  52116966   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.540 0.60033 0.11160 0.71193 0.15676 0.00001 0.00002   1.011
+
+	data output to file sphere.out at time 0.540000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.498     967   8409997  52255287   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.543 0.60029 0.11316 0.71345 0.15861 0.00001 0.00002   1.018
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.501     967   8426963  52493564   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.546 0.60021 0.11474 0.71495 0.16049 0.00001 0.00002   1.023
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.497     977   8490392  52726414   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.549 0.60016 0.11634 0.71650 0.16237 0.00001 0.00002   1.028
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.495     984   8486159  52791019   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.552 0.60015 0.11795 0.71810 0.16425 0.00001 0.00002   1.034
+
+	data output to file sphere.out at time 0.552000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.498     983   8398240  52882547   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.555 0.60013 0.11958 0.71971 0.16615 0.00001 0.00002   1.040
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.495     985   8410381  52932259   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.558 0.60012 0.12123 0.72136 0.16806 0.00001 0.00002   1.046
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.492     992   8514856  52882629   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.561 0.60010 0.12291 0.72301 0.16999 0.00001 0.00002   1.051
+
+	data output to file sphere.out at time 0.561000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.493     995   8564631  52837291   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.564 0.60009 0.12460 0.72469 0.17193 0.00001 0.00002   1.058
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.493     992   8606808  52771961   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.567 0.60010 0.12631 0.72640 0.17388 0.00001 0.00002   1.063
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.494     987   8625124  52723438   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.570 0.60008 0.12804 0.72812 0.17585 0.00001 0.00002   1.068
+
+	data output to file sphere.out at time 0.570000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.494     982   8549793  52737592   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.573 0.60007 0.12979 0.72985 0.17783 0.00001 0.00002   1.075
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.497     977   8522728  52725509   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.576 0.60007 0.13156 0.73163 0.17982 0.00001 0.00002   1.080
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.489     979   8496569  52721335   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.579 0.60006 0.13335 0.73341 0.18182 0.00001 0.00003   1.085
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.488     977   8472101  52715972   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.582 0.60004 0.13516 0.73520 0.18384 0.00001 0.00003   1.090
+
+	data output to file sphere.out at time 0.582000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.491     969   8446629  52743243   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.585 0.60003 0.13700 0.73703 0.18588 0.00001 0.00003   1.097
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.487     966   8458303  52797976   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.588 0.60002 0.13885 0.73887 0.18792 0.00001 0.00003   1.102
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.492     969   8633011  52635284   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.591 0.59999 0.14073 0.74072 0.18999 0.00001 0.00003   1.107
+
+	data output to file sphere.out at time 0.591000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.484     977   8585729  52948059   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.594 0.59993 0.14262 0.74255 0.19207 0.00001 0.00003   1.113
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.484     989   8689286  53186623   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.597 0.59985 0.14454 0.74439 0.19418 0.00001 0.00003   1.119
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.481     998   9053382  53097527   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.600 0.59978 0.14648 0.74626 0.19629 0.00001 0.00003   1.124
+
+	data output to file sphere.out at time 0.600000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.483     990   9257373  52853157   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.603 0.59973 0.14845 0.74818 0.19842 0.00001 0.00003   1.131
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.482     988   9367422  52681614   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.606 0.59967 0.15044 0.75011 0.20056 0.00001 0.00003   1.136
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.481     989   9144393  52576613   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.609 0.59963 0.15245 0.75209 0.20271 0.00001 0.00003   1.141
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.481     982   9131697  52407820   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.612 0.59963 0.15449 0.75412 0.20486 0.00001 0.00003   1.147
+
+	data output to file sphere.out at time 0.612000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.482     972   8849148  52417716   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.615 0.59961 0.15655 0.75617 0.20704 0.00001 0.00003   1.153
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.481     968   8475150  52452190   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.618 0.59959 0.15864 0.75823 0.20922 0.00001 0.00003   1.158
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.485     968   8637435  52367278   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.621 0.59959 0.16075 0.76034 0.21142 0.00001 0.00003   1.164
+
+	data output to file sphere.out at time 0.621000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.486     975   8855852  52257300   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.624 0.59957 0.16289 0.76246 0.21364 0.00001 0.00003   1.170
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.473     976   8806327  52296947   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.627 0.59956 0.16505 0.76461 0.21586 0.00001 0.00003   1.175
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.475     972   8890205  52253524   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.630 0.59954 0.16724 0.76679 0.21811 0.00001 0.00003   1.180
+
+	data output to file sphere.out at time 0.630000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.482     973   8945161  52292366   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.633 0.59951 0.16946 0.76897 0.22037 0.00001 0.00003   1.187
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.477     985   8895080  52531809   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.636 0.59945 0.17171 0.77116 0.22266 0.00001 0.00003   1.192
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.473     983   8877465  52742155   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.639 0.59941 0.17398 0.77339 0.22496 0.00001 0.00003   1.197
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.471     986   8942162  52670620   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.642 0.59939 0.17628 0.77566 0.22726 0.00001 0.00003   1.202
+
+	data output to file sphere.out at time 0.642000
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.472     981   8840143  52878186   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.645 0.59935 0.17861 0.77795 0.22959 0.00001 0.00003   1.209
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.475     976   9023853  52753775   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.648 0.59930 0.18097 0.78027 0.23193 0.00001 0.00003   1.214
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.475     984   8977369  52857327   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.651 0.59929 0.18335 0.78265 0.23427 0.00001 0.00003   1.219
+
+	data output to file sphere.out at time 0.651001
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.471     987   8736061  52886061   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.654 0.59927 0.18577 0.78504 0.23664 0.00001 0.00003   1.226
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.473     981   8675520  52876343   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.657 0.59926 0.18822 0.78748 0.23901 0.00001 0.00003   1.231
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.472     979   8575652  52911749   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.660 0.59925 0.19070 0.78995 0.24141 0.00001 0.00003   1.236
+
+	data output to file sphere.out at time 0.660001
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.473     975   8705435  52674669   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.663 0.59924 0.19321 0.79245 0.24382 0.00001 0.00003   1.242
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.473     978   8790401  52487715   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.666 0.59923 0.19576 0.79499 0.24624 0.00001 0.00003   1.248
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.474     974   8802162  52232933   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.669 0.59923 0.19834 0.79756 0.24868 0.00000 0.00003   1.253
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.469     969   8487284  52273686   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.672 0.59921 0.20095 0.80016 0.25113 0.00000 0.00003   1.258
+
+	data output to file sphere.out at time 0.672001
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.475     960   8684569  51838549   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.675 0.59920 0.20359 0.80279 0.25360 0.00000 0.00003   1.264
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.473     961   8589382  51627967   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.678 0.59920 0.20627 0.80547 0.25609 0.00000 0.00003   1.269
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.476     959   8399356  51457447   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.681 0.59918 0.20899 0.80817 0.25859 0.00000 0.00003   1.274
+
+	data output to file sphere.out at time 0.681001
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.477     957   8359185  51558992   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.684 0.59917 0.21174 0.81091 0.26111 0.00000 0.00003   1.281
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.473     974   8356445  51697066   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.687 0.59915 0.21453 0.81367 0.26365 0.00000 0.00003   1.286
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.474     974   8230791  51835783   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.690 0.59914 0.21735 0.81649 0.26620 0.00000 0.00003   1.291
+
+	data output to file sphere.out at time 0.690001
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.472     962   8229043  51938113   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.693 0.59912 0.22022 0.81933 0.26877 0.00000 0.00003   1.297
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.476     965   8243485  52031362   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.696 0.59911 0.22312 0.82222 0.27136 0.00000 0.00003   1.302
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.478     963   8472696  51955906   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.699 0.59908 0.22606 0.82515 0.27397 0.00000 0.00003   1.307
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.478     966   8443764  52041242   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.702 0.59906 0.22905 0.82811 0.27659 0.00000 0.00003   1.312
+
+	data output to file sphere.out at time 0.702001
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.477     971   8412496  52054543   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.705 0.59906 0.23207 0.83113 0.27922 0.00000 0.00003   1.319
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.482     960   8833157  51816204   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.708 0.59904 0.23514 0.83418 0.28188 0.00000 0.00003   1.324
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.492     974   8857078  51941927   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.711 0.59903 0.23825 0.83728 0.28455 0.00000 0.00003   1.329
+
+	data output to file sphere.out at time 0.711001
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.486     966   9219073  51640048   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.714 0.59901 0.24141 0.84041 0.28725 0.00000 0.00003   1.335
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.481     957   9054509  51593046   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.717 0.59900 0.24460 0.84360 0.28995 0.00000 0.00003   1.340
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.479     961   9150353  51529782   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.720 0.59898 0.24785 0.84683 0.29268 0.00001 0.00003   1.345
+
+	data output to file sphere.out at time 0.720001
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.481     955   8676698  51639197   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.723 0.59896 0.25114 0.85010 0.29542 0.00001 0.00003   1.352
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.483     963   8599887  51737807   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.726 0.59895 0.25448 0.85343 0.29818 0.00001 0.00003   1.357
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.484     972   8647691  51670872   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.729 0.59894 0.25786 0.85680 0.30096 0.00001 0.00003   1.362
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.484     974   8640797  51875856   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.732 0.59894 0.26130 0.86024 0.30375 0.00001 0.00003   1.367
+
+	data output to file sphere.out at time 0.732001
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.488     971   8683042  52045648   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.735 0.59892 0.26479 0.86371 0.30657 0.00001 0.00003   1.373
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.488     970   8647617  52231416   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.738 0.59892 0.26832 0.86724 0.30940 0.00001 0.00003   1.378
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.492     970   8637115  52355837   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.741 0.59890 0.27192 0.87081 0.31225 0.00001 0.00003   1.383
+
+	data output to file sphere.out at time 0.741001
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.484     968   8549893  52445127   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.744 0.59890 0.27556 0.87446 0.31512 0.00001 0.00003   1.390
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.491     971   8534117  52512938   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.747 0.59889 0.27926 0.87814 0.31801 0.00001 0.00003   1.395
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.491     968   8572388  52624849   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.750 0.59888 0.28302 0.88189 0.32092 0.00001 0.00003   1.400
+
+	data output to file sphere.out at time 0.750001
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.492     979   8583365  52706794   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.753 0.59887 0.28683 0.88570 0.32384 0.00001 0.00003   1.406
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.496     975   8549780  52801151   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.756 0.59887 0.29070 0.88957 0.32679 0.00001 0.00003   1.411
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.499     972   8441903  52965139   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.759 0.59886 0.29463 0.89349 0.32975 0.00001 0.00003   1.416
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.500     970   8506151  53048766   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.762 0.59885 0.29863 0.89748 0.33274 0.00001 0.00003   1.421
+
+	data output to file sphere.out at time 0.762001
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.504     966   8371027  53150626   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.765 0.59884 0.30268 0.90153 0.33574 0.00001 0.00003   1.427
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.502     971   8347046  53246978   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.768 0.59884 0.30680 0.90565 0.33877 0.00001 0.00003   1.432
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.498     969   8269148  53306237   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.771 0.59882 0.31099 0.90982 0.34182 0.00001 0.00003   1.437
+
+	data output to file sphere.out at time 0.771001
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.505     977   8354762  53268042   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.774 0.59880 0.31525 0.91406 0.34489 0.00001 0.00003   1.444
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.498     988   8635501  53181995   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.777 0.59879 0.31958 0.91837 0.34798 0.00001 0.00003   1.449
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.504     991   8843319  53010944   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.780 0.59877 0.32398 0.92275 0.35110 0.00001 0.00003   1.454
+
+	data output to file sphere.out at time 0.780001
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.500     988   8816720  53111971   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.783 0.59877 0.32845 0.92721 0.35423 0.00001 0.00003   1.460
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.504     992   8956943  52976339   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.786 0.59875 0.33299 0.93175 0.35739 0.00001 0.00003   1.465
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.509     987   9223661  52520456   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.789 0.59874 0.33761 0.93635 0.36056 0.00001 0.00003   1.470
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.508     986   9225215  52139670   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.792 0.59873 0.34231 0.94105 0.36376 0.00001 0.00003   1.475
+
+	data output to file sphere.out at time 0.792002
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.516    1001   9361519  51852965   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.795 0.59871 0.34709 0.94580 0.36698 0.00001 0.00003   1.481
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.519     988   9165892  51535206   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.798 0.59869 0.35196 0.95065 0.37023 0.00001 0.00003   1.486
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.513    1002   9065314  51607274   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.801 0.59865 0.35691 0.95556 0.37351 0.00001 0.00003   1.491
+
+	data output to file sphere.out at time 0.801002
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.518    1009   9233258  51422739   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.804 0.59863 0.36194 0.96057 0.37680 0.00001 0.00003   1.497
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.523    1006   8722371  51571105   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.807 0.59861 0.36706 0.96567 0.38011 0.00001 0.00003   1.502
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.522    1000   8936652  51547755   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.810 0.59858 0.37228 0.97086 0.38346 0.00001 0.00003   1.507
+
+	data output to file sphere.out at time 0.810002
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.526    1004   8767216  51697073   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.813 0.59855 0.37758 0.97614 0.38681 0.00001 0.00003   1.513
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.526    1011   8646817  51900537   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.816 0.59853 0.38299 0.98151 0.39020 0.00001 0.00003   1.518
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.523    1030   8594678  52199144   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.819 0.59850 0.38849 0.98699 0.39361 0.00001 0.00003   1.523
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.528    1040   8629859  52466042   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.822 0.59846 0.39410 0.99256 0.39705 0.00001 0.00003   1.528
+
+	data output to file sphere.out at time 0.822002
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.535    1040   8717098  52688505   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.825 0.59843 0.39981 0.99824 0.40051 0.00001 0.00003   1.534
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.537    1045   8826872  52913658   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.828 0.59840 0.40562 1.00403 0.40400 0.00001 0.00003   1.539
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.543    1045   8645951  53191727   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.831 0.59838 0.41155 1.00993 0.40750 0.00001 0.00003   1.544
+
+	data output to file sphere.out at time 0.831002
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.540    1041   8781907  53175521   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.834 0.59836 0.41759 1.01595 0.41103 0.00001 0.00003   1.550
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.545    1037   8829032  53120902   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.837 0.59833 0.42375 1.02208 0.41459 0.00001 0.00003   1.555
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.549    1050   8694923  53204258   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.840 0.59830 0.43002 1.02832 0.41818 0.00001 0.00003   1.560
+
+	data output to file sphere.out at time 0.840002
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.546    1040   8926669  53066921   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.843 0.59827 0.43642 1.03470 0.42179 0.00001 0.00003   1.566
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.550    1035   8745643  53028487   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.846 0.59825 0.44295 1.04120 0.42543 0.00001 0.00003   1.571
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.549    1030   8865250  52826123   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.849 0.59822 0.44961 1.04783 0.42909 0.00001 0.00003   1.576
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.557    1024   9406383  52083559   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.852 0.59817 0.45641 1.05458 0.43279 0.00001 0.00003   1.581
+
+	data output to file sphere.out at time 0.852002
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.556    1017   9764403  51424536   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.855 0.59813 0.46335 1.06147 0.43651 0.00001 0.00003   1.587
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.562    1011   9521323  51068219   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.858 0.59809 0.47043 1.06852 0.44026 0.00001 0.00003   1.592
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.568    1013   9585849  50525915   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.861 0.59804 0.47766 1.07570 0.44404 0.00001 0.00003   1.597
+
+	data output to file sphere.out at time 0.861002
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.576     996   9510561  50121561   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.864 0.59801 0.48505 1.08306 0.44785 0.00001 0.00003   1.604
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.575     998   9318824  50085081   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.867 0.59798 0.49258 1.09057 0.45168 0.00001 0.00003   1.608
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.569     982   9129380  50168796   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.870 0.59795 0.50029 1.09824 0.45554 0.00001 0.00003   1.613
+
+	data output to file sphere.out at time 0.870002
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.584     990   9010909  50205366   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.873 0.59791 0.50817 1.10608 0.45943 0.00001 0.00003   1.620
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.584     979   9001241  50184969   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.876 0.59789 0.51622 1.11410 0.46335 0.00001 0.00003   1.624
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.588     987   9060555  50363080   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.879 0.59783 0.52446 1.12229 0.46731 0.00001 0.00003   1.629
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.589    1001   9168404  50567769   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.882 0.59782 0.53288 1.13070 0.47128 0.00001 0.00003   1.634
+
+	data output to file sphere.out at time 0.882002
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.595    1003   9440332  50618848   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.885 0.59778 0.54151 1.13929 0.47530 0.00001 0.00003   1.640
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.600    1006   9612414  50498244   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.888 0.59774 0.55033 1.14807 0.47935 0.00001 0.00003   1.645
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.602    1019   9449813  50579233   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.891 0.59771 0.55936 1.15708 0.48343 0.00001 0.00003   1.650
+
+	data output to file sphere.out at time 0.891002
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.603    1049   9510842  50757448   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.894 0.59770 0.56862 1.16632 0.48753 0.00001 0.00004   1.656
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.613    1056   9583285  50897823   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.897 0.59767 0.57810 1.17577 0.49168 0.00001 0.00004   1.661
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.609    1071   9768384  50760826   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.900 0.59768 0.58782 1.18549 0.49584 0.00001 0.00004   1.665
+
+	data output to file sphere.out at time 0.900002
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.616    1079   9499084  51022934   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.903 0.59767 0.59778 1.19545 0.50004 0.00002 0.00004   1.671
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.614    1097   9038608  51397469   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.906 0.59768 0.60800 1.20567 0.50428 0.00002 0.00004   1.676
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.627    1068   9369811  51333006   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.909 0.59768 0.61849 1.21617 0.50856 0.00002 0.00004   1.681
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.625    1085   9449992  51117718   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.912 0.59770 0.62925 1.22695 0.51285 0.00002 0.00004   1.686
+
+	data output to file sphere.out at time 0.912002
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.629    1068  10250596  50410828   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.915 0.59773 0.64030 1.23802 0.51719 0.00002 0.00004   1.692
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.634    1046  10009943  50134970   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.918 0.59773 0.65165 1.24938 0.52158 0.00002 0.00004   1.696
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.635    1025   9578716  49996928   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.921 0.59774 0.66332 1.26106 0.52600 0.00002 0.00004   1.701
+
+	data output to file sphere.out at time 0.921002
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.637    1027   9198532  50093837   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.924 0.59772 0.67532 1.27305 0.53048 0.00002 0.00004   1.707
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.640    1044   9503355  50047808   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.927 0.59774 0.68766 1.28540 0.53498 0.00002 0.00005   1.712
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.652    1058   9968893  49744766   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.930 0.59773 0.70035 1.29808 0.53953 0.00002 0.00005   1.716
+
+	data output to file sphere.out at time 0.930003
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.658    1058   9741493  49902835   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.933 0.59769 0.71343 1.31112 0.54414 0.00002 0.00005   1.722
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.659    1054   9973574  49800369   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.936 0.59768 0.72689 1.32457 0.54877 0.00002 0.00005   1.727
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.667    1065  10100457  49750305   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.939 0.59765 0.74076 1.33840 0.55346 0.00002 0.00005   1.732
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.674    1075  10193937  49297891   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.942 0.59762 0.75505 1.35267 0.55819 0.00002 0.00005   1.736
+
+	data output to file sphere.out at time 0.942003
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.673    1047  10281112  49200855   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.945 0.59760 0.76981 1.36740 0.56297 0.00002 0.00005   1.742
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.678    1040  10306003  49090609   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.948 0.59758 0.78502 1.38260 0.56778 0.00002 0.00005   1.747
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.686    1032  10124105  48904836   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.951 0.59754 0.80075 1.39829 0.57266 0.00002 0.00006   1.752
+
+	data output to file sphere.out at time 0.951003
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.694    1043   9739615  49297625   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.954 0.59745 0.81699 1.41444 0.57761 0.00003 0.00006   1.758
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.686    1041   9666590  49488519   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.957 0.59737 0.83379 1.43116 0.58259 0.00003 0.00006   1.763
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.697    1050   9909651  49711045   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.960 0.59715 0.85114 1.44830 0.58769 0.00003 0.00006   1.768
+
+	data output to file sphere.out at time 0.960003
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.700    1069  10020903  50175493   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.963 0.59698 0.86912 1.46609 0.59281 0.00003 0.00006   1.774
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.713    1070  10154800  50724278   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.966 0.59672 0.88773 1.48445 0.59802 0.00003 0.00006   1.779
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.709    1093  10130359  51325302   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.969 0.59646 0.90703 1.50349 0.60328 0.00003 0.00006   1.784
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.716    1123  10302020  51817393   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.972 0.59619 0.92703 1.52323 0.60860 0.00003 0.00006   1.788
+
+	data output to file sphere.out at time 0.972003
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.727    1166  10949534  51744428   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.975 0.59590 0.94779 1.54369 0.61398 0.00003 0.00006   1.795
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.729    1174  10966180  51615311   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.978 0.59564 0.96937 1.56501 0.61940 0.00003 0.00006   1.800
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.738    1171  11129623  51828272   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.981 0.59545 0.99179 1.58724 0.62485 0.00002 0.00006   1.804
+
+	data output to file sphere.out at time 0.981003
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.748    1200  11436611  51504799   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.984 0.59527 1.01512 1.61040 0.63036 0.00002 0.00007   1.811
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.742    1186  11058806  51774349   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.987 0.59510 1.03943 1.63453 0.63592 0.00002 0.00007   1.815
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.759    1165  11268084  52012084   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.990 0.59498 1.06477 1.65976 0.64152 0.00002 0.00007   1.820
+
+	data output to file sphere.out at time 0.990003
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.754    1123  11048127  52157056   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.993 0.59487 1.09123 1.68610 0.64719 0.00002 0.00007   1.827
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.762    1131  11361255  52229255   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.996 0.59479 1.11887 1.71366 0.65291 0.00002 0.00007   1.831
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.772    1154  11290467  52273842   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       0.999 0.59467 1.14780 1.74247 0.65872 0.00002 0.00007   1.836
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.779    1146  11681253  51971005   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.002 0.59461 1.17809 1.77270 0.66457 0.00002 0.00007   1.841
+
+	data output to file sphere.out at time 1.002003
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.787    1162  11543530  52080010   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.005 0.59454 1.20989 1.80443 0.67051 0.00002 0.00007   1.847
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.789    1158  11457083  52270498   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.008 0.59443 1.24331 1.83774 0.67654 0.00002 0.00007   1.852
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.804    1175  11649341  52700580   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.011 0.59434 1.27844 1.87278 0.68264 0.00002 0.00007   1.857
+
+	data output to file sphere.out at time 1.011003
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.808    1189  11754408  52895409   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.014 0.59420 1.31550 1.90971 0.68885 0.00002 0.00007   1.863
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.816    1209  12031067  53180199   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.017 0.59406 1.35461 1.94868 0.69514 0.00002 0.00007   1.868
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.817    1210  12172824  53053610   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.020 0.59391 1.39596 1.98988 0.70153 0.00002 0.00007   1.873
+
+	data output to file sphere.out at time 1.020003
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.830    1236  12163454  53464302   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.023 0.59373 1.43977 2.03350 0.70803 0.00002 0.00007   1.879
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.837    1242  12256205  53774566   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.026 0.59350 1.48625 2.07975 0.71463 0.00002 0.00007   1.884
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.841    1284  12340015  54048777   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.029 0.59326 1.53571 2.12897 0.72134 0.00002 0.00007   1.889
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.854    1328  12601925  54450517   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.032 0.59305 1.58844 2.18148 0.72814 0.00002 0.00007   1.894
+
+	data output to file sphere.out at time 1.032003
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.849    1395  12589575  54554058   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.035 0.59287 1.64479 2.23766 0.73505 0.00002 0.00007   1.900
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.857    1352  12633842  54595077   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.038 0.59266 1.70521 2.29787 0.74208 0.00003 0.00007   1.905
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.874    1296  13034217  54055394   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.041 0.59256 1.77014 2.36270 0.74920 0.00003 0.00007   1.910
+
+	data output to file sphere.out at time 1.041003
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.878    1329  13691797  53973352   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.044 0.59248 1.84020 2.43267 0.75645 0.00004 0.00007   1.917
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.893    1341  14448996  54000940   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.047 0.59242 1.91605 2.50847 0.76383 0.00005 0.00008   1.922
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.897    1335  13917533  54324056   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.050 0.59234 1.99847 2.59081 0.77137 0.00006 0.00008   1.927
+
+	data output to file sphere.out at time 1.050003
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.905    1335  14054387  54831642   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.053 0.59214 2.08846 2.68060 0.77910 0.00007 0.00008   1.933
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.906    1348  13593092  55804939   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.056 0.59198 2.18713 2.77912 0.78699 0.00008 0.00009   1.938
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.911    1365  14482924  55615385   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.059 0.59165 2.29589 2.88754 0.79510 0.00010 0.00009   1.944
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      13   2.930    1381  14484117  56353645   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.062 0.59093 2.41650 3.00744 0.80351 0.00010 0.00009   1.949
+
+	data output to file sphere.out at time 1.062003
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.931    1405  15077884  57737909   0.004
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.065 0.58971 2.55111 3.14082 0.81224 0.00010 0.00009   1.956
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.941    1445  14919897  59348349   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.068 0.58835 2.70238 3.29073 0.82121 0.00011 0.00010   1.961
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.945    1431  15009889  60746521   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.071 0.58714 2.87391 3.46105 0.83036 0.00011 0.00010   1.967
+
+	data output to file sphere.out at time 1.071003
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.957    1450  15541194  61699356   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.074 0.58605 3.07038 3.65643 0.83972 0.00012 0.00010   1.974
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   2.969    1473  16125783  62037060   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.077 0.58487 3.29828 3.88315 0.84938 0.00014 0.00010   1.979
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.978    1463  16179845  63682527   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.080 0.58372 3.56658 4.15031 0.85935 0.00016 0.00010   1.985
+
+	data output to file sphere.out at time 1.080003
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.993    1508  16392754  64862796   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.083 0.58212 3.88787 4.46999 0.86977 0.00019 0.00011   1.992
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   2.983    1511  16268648  66002747   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.086 0.58005 4.28015 4.86020 0.88065 0.00021 0.00011   1.998
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   2.993    1544  16331843  67665818   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.089 0.57751 4.76834 5.34585 0.89197 0.00021 0.00011   2.003
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.017    1582  15911157  70738847   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.092 0.57508 5.38584 5.96092 0.90352 0.00020 0.00011   2.009
+
+	data output to file sphere.out at time 1.092004
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.018    1601  17447636  72096510   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.095 0.56906 6.18471 6.75377 0.91574 0.00023 0.00012   2.017
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.027    1530  17031218  74786042   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.098 0.54891 7.27962 7.82853 0.92988 0.00030 0.00012   2.023
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.035    1550  16817414  78674272   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.101 0.51100 8.94593 9.45693 0.94597 0.00038 0.00012   2.029
+
+	data output to file sphere.out at time 1.101004
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.051    1598  16950419  83825922   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.104 0.4568011.7253612.18217 0.96250 0.00053 0.00012   2.037
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.048    1585  17157342  87278332   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.107 0.4761816.3265816.80276 0.97166 0.00063 0.00011   2.044
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   3.043    1592  16766301  91691744   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.110 1.4286921.3330722.76176 0.93723 0.00090 0.00011   2.051
+
+	data output to file sphere.out at time 1.110004
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.049    1570  17776412  87705090   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.113 0.1029021.8462721.74337 1.00473 0.00140 0.00012   2.059
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.065    1450  17834284  76958524   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.116 0.6896817.1072416.41755 1.04201 0.00157 0.00012   2.066
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.063    1411  15351296  70301263   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.119 0.6574513.3798812.72243 1.05168 0.00162 0.00012   2.071
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      17   3.043    1375  12149527  69316705   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.122 0.6459710.9907310.34476 1.06244 0.00164 0.00011   2.078
+
+	data output to file sphere.out at time 1.122004
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.052    1355  12428763  69713616   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.125 0.63202 9.39321 8.76119 1.07214 0.00165 0.00011   2.085
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.050    1363  12702133  69230966   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.128 0.62136 8.29753 7.67617 1.08095 0.00167 0.00011   2.091
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.044    1460  12599925  71229953   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.131 0.61700 7.52353 6.90653 1.08934 0.00168 0.00011   2.097
+
+	data output to file sphere.out at time 1.131004
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   3.053    1487  12244969  73290982   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.134 0.61385 6.96377 6.34992 1.09667 0.00174 0.00011   2.104
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.053    1496  12790495  73129193   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.137 0.61195 6.55310 5.94115 1.10300 0.00182 0.00011   2.110
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.046    1526  12635647  75074516   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.140 0.61010 6.25183 5.64173 1.10814 0.00188 0.00011   2.116
+
+	data output to file sphere.out at time 1.140004
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   3.047    1527  12600411  73366068   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.143 0.60826 6.03592 5.42766 1.11207 0.00193 0.00010   2.124
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.035    1589  13198035  75058316   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.146 0.60765 5.89093 5.28328 1.11501 0.00195 0.00010   2.130
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.041    1646  12837118  77833348   0.005
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.149 0.60708 5.80886 5.20179 1.11671 0.00197 0.00010   2.136
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   3.037    1701  13400094  79360243   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.152 0.60568 5.78518 5.17951 1.11694 0.00202 0.00010   2.143
+
+	data output to file sphere.out at time 1.152004
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   3.037    1761  12827621  82710450   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.155 0.60337 5.81526 5.21189 1.11577 0.00206 0.00010   2.151
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.042    1812  12710070  84257980   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.158 0.59936 5.88921 5.28985 1.11330 0.00208 0.00010   2.157
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.032    1786  12838302  83751367   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.161 0.59478 5.98926 5.39448 1.11026 0.00209 0.00010   2.163
+
+	data output to file sphere.out at time 1.161004
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.042    1805  12494311  85153438   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.164 0.59091 6.09656 5.50565 1.10733 0.00208 0.00010   2.171
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.039    1822  13237873  86267855   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.167 0.58778 6.19855 5.61077 1.10476 0.00208 0.00010   2.178
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   3.039    1824  13081445  87107201   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.170 0.58544 6.28687 5.70144 1.10268 0.00208 0.00010   2.184
+
+	data output to file sphere.out at time 1.170004
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.038    1818  12541237  86991118   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.173 0.58218 6.34762 5.76543 1.10098 0.00207 0.00010   2.192
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.041    1834  12830167  86701971   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.176 0.58230 6.36328 5.78097 1.10073 0.00208 0.00010   2.199
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.040    1864  13135727  87742275   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.179 0.58531 6.32549 5.74018 1.10197 0.00208 0.00010   2.205
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.028    1889  13456633  89692951   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.182 0.59076 6.24598 5.65521 1.10446 0.00208 0.00010   2.212
+
+	data output to file sphere.out at time 1.182004
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.033    1928  13346426  91134127   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.185 0.59491 6.14790 5.55299 1.10713 0.00209 0.00010   2.220
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.028    1970  13637301  92337734   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.188 0.59790 6.05116 5.45325 1.10964 0.00209 0.00010   2.227
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   3.027    1991  13920285  92676870   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.191 0.59976 5.96592 5.36616 1.11177 0.00213 0.00010   2.234
+
+	data output to file sphere.out at time 1.191004
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.025    1963  13878050  92021214   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.194 0.60133 5.89752 5.29619 1.11354 0.00222 0.00010   2.242
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.024    1983  13806907  93340526   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.197 0.60175 5.84802 5.24627 1.11470 0.00231 0.00010   2.248
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.034    1997  14183982  94431396   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.200 0.60240 5.81499 5.21259 1.11557 0.00239 0.00010   2.255
+
+	data output to file sphere.out at time 1.200004
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.032    2020  13828511  95255915   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.203 0.60224 5.79438 5.19214 1.11599 0.00244 0.00011   2.264
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.027    2025  13767392  95868540   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.206 0.60199 5.78332 5.18133 1.11618 0.00247 0.00011   2.271
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.035    2033  13538070  96540077   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.209 0.60175 5.77810 5.17635 1.11625 0.00251 0.00011   2.277
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.034    2041  13128401  96954087   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.212 0.60143 5.77851 5.17708 1.11617 0.00252 0.00011   2.284
+
+	data output to file sphere.out at time 1.212004
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.033    2037  13996836  96059266   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.215 0.60077 5.78220 5.18144 1.11595 0.00252 0.00011   2.292
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.033    2030  14085779  96284631   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.218 0.59989 5.78264 5.18275 1.11575 0.00251 0.00011   2.300
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      16   3.021    2055  13849908  96923894   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.221 0.59973 5.77478 5.17505 1.11589 0.00249 0.00011   2.306
+
+	data output to file sphere.out at time 1.221004
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.019    2026  13206156  97508254   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.224 0.60109 5.75746 5.15638 1.11657 0.00251 0.00011   2.314
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.017    2048  13848989  98457485   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.227 0.60191 5.73299 5.13108 1.11731 0.00254 0.00011   2.321
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   3.017    2038  14006862  98289666   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.230 0.60340 5.70462 5.10122 1.11829 0.00257 0.00011   2.329
+
+	data output to file sphere.out at time 1.230005
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.020    2044  13561228  98433812   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.233 0.60437 5.67607 5.07170 1.11917 0.00258 0.00011   2.337
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   3.012    2048  13525078  98380419   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.236 0.60526 5.64994 5.04468 1.11998 0.00262 0.00011   2.344
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      15   3.022    2024  13274558  97725911   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.239 0.60622 5.62880 5.02258 1.12070 0.00265 0.00011   2.351
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     2.0      14   3.014    2017  13212763  97085701   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.242 0.60634 5.61373 5.00739 1.12109 0.00266 0.00011   2.358
+
+	data output to file sphere.out at time 1.242005
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.022    2043  13372138  97016893   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.245 0.60725 5.60558 4.99832 1.12149 0.00268 0.00011   2.366
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.015    2029  13454484  97420975   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.248 0.60804 5.60508 4.99704 1.12168 0.00273 0.00011   2.373
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      17   3.021    2047  13786045  97952220   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.251 0.60838 5.61240 5.00401 1.12158 0.00276 0.00011   2.380
+
+	data output to file sphere.out at time 1.251005
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.023    2077  13923449  99034826   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.254 0.60799 5.62839 5.02040 1.12110 0.00278 0.00011   2.388
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.017    2094  14181466 100272525   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.257 0.60840 5.65232 5.04392 1.12062 0.00282 0.00011   2.395
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.018    2110  14223548 101066034   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.260 0.60797 5.68459 5.07663 1.11976 0.00285 0.00011   2.402
+
+	data output to file sphere.out at time 1.260005
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      15   3.018    2109  14239384 101337713   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.263 0.60689 5.72269 5.11580 1.11863 0.00286 0.00011   2.411
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      17   3.015    2127  13824077 102045487   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.266 0.60586 5.76096 5.15510 1.11753 0.00290 0.00011   2.418
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.014    2157  14067349 102753331   0.006
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.269 0.60479 5.79187 5.18708 1.11660 0.00295 0.00012   2.425
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      15   3.024    2184  14828098 103097246   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.272 0.60563 5.80899 5.20336 1.11639 0.00298 0.00012   2.432
+
+	data output to file sphere.out at time 1.272005
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.019    2179  14711478 103585428   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.275 0.60653 5.81397 5.20743 1.11647 0.00300 0.00012   2.441
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.008    2199  14280009 104412443   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.278 0.60705 5.81116 5.20411 1.11665 0.00302 0.00012   2.448
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      15   3.019    2207  14440076 104996041   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.281 0.60752 5.80415 5.19663 1.11691 0.00306 0.00012   2.455
+
+	data output to file sphere.out at time 1.281005
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.014    2240  15240653 105750796   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.284 0.60802 5.79363 5.18561 1.11725 0.00311 0.00012   2.464
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      17   3.011    2262  15527652 106426516   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.287 0.60844 5.77676 5.16832 1.11772 0.00315 0.00012   2.471
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.014    2272  14971110 107758486   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.290 0.60972 5.75340 5.14367 1.11854 0.00320 0.00012   2.478
+
+	data output to file sphere.out at time 1.290005
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.019    2272  15269015 107879020   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.293 0.61113 5.72594 5.11482 1.11948 0.00323 0.00012   2.487
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.020    2298  14993095 108374633   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.296 0.61222 5.69780 5.08558 1.12038 0.00325 0.00012   2.495
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.014    2289  14498809 108431510   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.299 0.61303 5.67173 5.05870 1.12118 0.00326 0.00012   2.502
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      15   3.011    2297  15079789 108533169   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.302 0.61299 5.64824 5.03525 1.12174 0.00327 0.00012   2.509
+
+	data output to file sphere.out at time 1.302005
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.005    2314  14757218 109147677   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.305 0.61299 5.62627 5.01327 1.12227 0.00331 0.00012   2.518
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.011    2315  15172132 108974451   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.308 0.61422 5.60426 4.99005 1.12309 0.00335 0.00012   2.526
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      17   3.011    2312  15280884 109112087   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.311 0.61551 5.58485 4.96934 1.12386 0.00337 0.00012   2.533
+
+	data output to file sphere.out at time 1.311005
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.015    2309  15398103 109224687   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.314 0.61602 5.57221 4.95618 1.12429 0.00341 0.00012   2.542
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      17   3.018    2326  16001862 108971277   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.317 0.61607 5.56810 4.95202 1.12441 0.00345 0.00012   2.549
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      15   3.006    2339  15601711 109182557   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.320 0.61509 5.56804 4.95295 1.12419 0.00347 0.00012   2.557
+
+	data output to file sphere.out at time 1.320005
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      15   3.010    2326  15465247 108948840   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.323 0.61541 5.56704 4.95163 1.12428 0.00349 0.00012   2.565
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      15   3.010    2327  16019949 109103121   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.326 0.61587 5.56515 4.94928 1.12444 0.00349 0.00012   2.573
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.009    2310  15852475 108779738   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.329 0.61540 5.56289 4.94749 1.12439 0.00351 0.00012   2.580
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.006    2286  15464770 108303606   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.332 0.61581 5.55939 4.94358 1.12457 0.00353 0.00012   2.588
+
+	data output to file sphere.out at time 1.332005
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      18   3.012    2262  14258874 108254962   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.335 0.61689 5.55239 4.93550 1.12499 0.00355 0.00012   2.596
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.007    2228  14437738 107495594   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.338 0.61736 5.54383 4.92647 1.12531 0.00355 0.00012   2.604
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.004    2264  14532435 107924079   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.341 0.61825 5.53743 4.91918 1.12568 0.00354 0.00012   2.611
+
+	data output to file sphere.out at time 1.341005
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      17   3.021    2229  14531552 107670151   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.344 0.61832 5.53510 4.91678 1.12576 0.00353 0.00012   2.620
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.008    2224  14800884 107777110   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.347 0.61873 5.53764 4.91891 1.12579 0.00352 0.00012   2.627
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      17   3.011    2209  14899164 107087671   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.350 0.61826 5.54329 4.92502 1.12553 0.00349 0.00012   2.634
+
+	data output to file sphere.out at time 1.350005
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.007    2194  14513198 107655244   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.353 0.61942 5.55155 4.93213 1.12559 0.00347 0.00012   2.643
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.012    2205  14719531 107811787   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.356 0.61949 5.56266 4.94316 1.12532 0.00345 0.00012   2.650
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.007    2215  14277299 108161922   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.359 0.61951 5.57773 4.95822 1.12495 0.00342 0.00012   2.658
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      15   3.011    2202  14145771 107918199   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.362 0.61947 5.59638 4.97692 1.12447 0.00339 0.00012   2.665
+
+	data output to file sphere.out at time 1.362005
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.017    2195  14094064 107560562   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.365 0.61913 5.61596 4.99683 1.12390 0.00335 0.00012   2.674
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.005    2179  13813660 107486000   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.368 0.61969 5.63398 5.01429 1.12359 0.00334 0.00012   2.681
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      15   3.007    2188  14138495 107108908   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.371 0.61978 5.65214 5.03236 1.12316 0.00335 0.00012   2.688
+
+	data output to file sphere.out at time 1.371006
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.009    2215  13637958 107433980   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.374 0.61934 5.67037 5.05103 1.12262 0.00336 0.00012   2.697
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.006    2203  13637339 107584998   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.377 0.61943 5.68643 5.06699 1.12225 0.00337 0.00012   2.704
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      17   3.010    2197  14398495 107411014   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.380 0.61879 5.69849 5.07970 1.12182 0.00338 0.00012   2.712
+
+	data output to file sphere.out at time 1.380006
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     4.0      16   3.005    2208  14298983 107276079   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.383 0.61886 5.70167 5.08281 1.12176 0.00339 0.00012   2.720
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   3.000    2232  14227422 107991230   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.386 0.61927 5.69296 5.07369 1.12205 0.00337 0.00012   2.728
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   3.001    2228  14442575 108094388   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.389 0.61972 5.67344 5.05372 1.12263 0.00335 0.00012   2.735
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   2.999    2229  14539321 108157222   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.392 0.62146 5.64445 5.02299 1.12372 0.00334 0.00012   2.742
+
+	data output to file sphere.out at time 1.392006
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      18   3.004    2241  14179251 108487638   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.395 0.62305 5.60882 4.98576 1.12497 0.00331 0.00012   2.751
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   2.996    2246  14820773 108888996   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.398 0.62435 5.57222 4.94787 1.12619 0.00329 0.00012   2.759
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      18   3.003    2247  15108049 108803174   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.401 0.62541 5.53815 4.91275 1.12730 0.00328 0.00011   2.766
+
+	data output to file sphere.out at time 1.401006
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      16   3.011    2271  14930746 109593664   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.404 0.62638 5.50768 4.88130 1.12832 0.00326 0.00011   2.775
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      16   3.002    2284  14738253 110355687   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.407 0.62727 5.48351 4.85624 1.12917 0.00323 0.00011   2.782
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   2.996    2289  14360053 110868787   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.410 0.62770 5.46596 4.83826 1.12974 0.00322 0.00011   2.790
+
+	data output to file sphere.out at time 1.410006
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   3.006    2298  14676449 111098384   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.413 0.62774 5.45386 4.82612 1.13007 0.00319 0.00011   2.799
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      16   3.002    2292  14863273 111230177   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.416 0.62841 5.44634 4.81793 1.13043 0.00319 0.00011   2.806
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   2.996    2295  15092254 111464247   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.419 0.62882 5.44427 4.81545 1.13058 0.00319 0.00011   2.814
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   2.987    2325  14703210 112163455   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.422 0.62843 5.44774 4.81932 1.13040 0.00315 0.00011   2.821
+
+	data output to file sphere.out at time 1.422006
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   2.994    2308  14478810 111945796   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.425 0.62858 5.45431 4.82572 1.13026 0.00313 0.00011   2.830
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   3.001    2319  14823919 112433610   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.428 0.62841 5.46273 4.83431 1.12999 0.00308 0.00011   2.837
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      16   3.001    2325  15152419 111933359   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.431 0.62787 5.47077 4.84290 1.12965 0.00304 0.00011   2.845
+
+	data output to file sphere.out at time 1.431006
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   3.001    2339  15412907 112182543   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.434 0.62825 5.47421 4.84596 1.12964 0.00303 0.00011   2.854
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      18   3.006    2357  15454720 112918063   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.437 0.62890 5.47166 4.84276 1.12986 0.00299 0.00011   2.861
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      18   3.003    2370  15323612 113496645   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.440 0.62960 5.46292 4.83332 1.13026 0.00294 0.00011   2.869
+
+	data output to file sphere.out at time 1.440006
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   3.003    2355  15652635 112802226   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.443 0.63106 5.44932 4.81827 1.13097 0.00290 0.00011   2.878
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      18   3.009    2347  15168334 112670306   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.446 0.63179 5.43547 4.80368 1.13152 0.00289 0.00011   2.886
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      18   3.011    2342  15635042 112254132   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.449 0.63169 5.42555 4.79386 1.13177 0.00288 0.00011   2.893
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   2.994    2364  15642166 113303168   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.452 0.63221 5.41981 4.78759 1.13205 0.00285 0.00010   2.901
+
+	data output to file sphere.out at time 1.452006
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   3.003    2360  15551065 113432957   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.455 0.63298 5.41635 4.78338 1.13233 0.00283 0.00010   2.910
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   3.003    2358  15534689 113677249   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.458 0.63423 5.41616 4.78193 1.13263 0.00283 0.00010   2.917
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   2.997    2373  15834227 113953291   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.461 0.63454 5.42235 4.78781 1.13253 0.00282 0.00011   2.925
+
+	data output to file sphere.out at time 1.461006
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      18   2.998    2384  15787744 114375319   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.464 0.63467 5.43710 4.80243 1.13216 0.00279 0.00011   2.934
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   2.997    2407  16168932 115011972   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.467 0.63463 5.45859 4.82396 1.13156 0.00278 0.00011   2.942
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   2.996    2412  15903177 115876252   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.470 0.63392 5.48336 4.84944 1.13072 0.00279 0.00011   2.949
+
+	data output to file sphere.out at time 1.470006
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      18   2.996    2420  15523507 116504293   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.473 0.63321 5.50694 4.87372 1.12992 0.00281 0.00010   2.958
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   3.001    2442  15562017 117588016   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.476 0.63265 5.52507 4.89241 1.12931 0.00280 0.00010   2.966
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   3.002    2444  16182924 117668578   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.479 0.63348 5.53551 4.90203 1.12923 0.00279 0.00010   2.974
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   2.999    2454  15829876 118309225   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.482 0.63402 5.53946 4.90544 1.12925 0.00277 0.00010   2.982
+
+	data output to file sphere.out at time 1.482006
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   2.990    2472  15277402 118528719   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.485 0.63389 5.53963 4.90573 1.12922 0.00274 0.00010   2.991
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      18   2.999    2448  15213087 118314415   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.488 0.63478 5.53593 4.90115 1.12952 0.00271 0.00010   2.999
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   2.993    2458  15423114 118457834   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.491 0.63507 5.52860 4.89353 1.12978 0.00269 0.00010   3.006
+
+	data output to file sphere.out at time 1.491006
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   3.002    2464  15484552 118873774   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.494 0.63559 5.51779 4.88219 1.13019 0.00267 0.00010   3.016
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      16   2.998    2481  15332149 119218259   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.497 0.63680 5.50324 4.86643 1.13086 0.00265 0.00010   3.023
+
+	   rsize  tdepth   ftree  actmax    nbbtot    nbctot   CPUfc
+	     8.0      17   2.989    2466  15739646 118861923   0.007
+
+        time   |T+U|       T      -U    -T/U  |Vcom|  |Jtot|  CPUtot
+       1.500 0.63775 5.48778 4.85003 1.13149 0.00263 0.00010   3.031
+
+	data output to file sphere.out at time 1.500006

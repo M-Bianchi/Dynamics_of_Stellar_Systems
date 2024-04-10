@@ -1,0 +1,1 @@
+./treecode in=sphere.in out=sphere.out dtime=0.003 eps=0.025 theta=1. tstop=1.5 dtout=0.003 > log.txt
