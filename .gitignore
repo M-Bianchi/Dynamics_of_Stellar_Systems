@@ -5,8 +5,11 @@ sphere_300.gif
 sphere_1000V2.gif
 sphere_1000V3.gif
 
+sphere.in
+
 sphere.out
-sphere_10k.out
+sphere_10k_0.03.out
+sphere_10k_0.5.out
 sphere_100k.out
 sphere_1000p_5e5m_100r_out.txt
 
