@@ -13,6 +13,11 @@ sphere_100k.out
 sphere_100k_0.3.out
 sphere_1000p_5e5m_100r_out.txt
 
+plummer.in
+plummer.out
+plummer_10k.out
+plummer_100k.out
+
 numpy_arrays/
 
 treecode/log.txt
