@@ -1,0 +1,10 @@
+cd Dynamics_of_Stellar_Systems/treecode
+
+Per 1k
+./treecode in=plummer.in out=plummer.out dtime=0.001 eps=0.16 theta=0.03 usequad=true tstop=50. dtout=0.2 > log.txt
+
+Per 10k
+./treecode in=plummer.in out=plummer.out dtime=0.001 eps=0.075 theta=0.05 usequad=true tstop=5. dtout=0.02 > log.txt
+
+Per 100k
+./treecode in=plummer.in out=plummer.out dtime=0.001 eps=0.035 theta=0.3 usequad=true tstop=5. dtout=0.02 > log.txt
