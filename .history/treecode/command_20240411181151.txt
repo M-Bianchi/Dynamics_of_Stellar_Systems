@@ -1,8 +1,0 @@
-Per 1k e 10k
-./treecode in=sphere.in out=sphere.out dtime=0.003 eps=0.025 theta=1. tstop=1.5 dtout=0.003 > log.txt
-
-Per 100k
-./treecode in=sphere.in out=sphere.out dtime=0.003 eps=0.001 theta=1. tstop=1.5 dtout=0.01 > log.txt
-
-
-./treecode in=sphere.in out=sphere.out dtime=0.0001 eps=0.01 theta=0.1 usequad=true tstop=2. dtout=0.005 > log.txt
