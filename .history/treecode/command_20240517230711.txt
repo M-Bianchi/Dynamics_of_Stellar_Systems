@@ -1,0 +1,13 @@
+cd Dynamics_of_Stellar_Systems/treecode
+
+Per 5k, b=1
+./treecode in=friction.in out=friction.out dtime=0.01 eps=0.09 theta=0.1 usequad=true tstop=500. dtout=0.1 > log.txt
+
+Per 10k, b=1
+./treecode in=friction.in out=friction.out dtime=0.001 eps=0.075 theta=0.05 usequad=true tstop=5. dtout=0.02 > log.txt
+
+Per 10k, b=0.1 
+./treecode in=friction.in out=friction.out dtime=0.001 eps=0.0075 theta=0.05 usequad=true tstop=15. dtout=0.01 > log.txt
+
+Per 100k, b=1
+./treecode in=friction.in out=friction.out dtime=0.001 eps=0.035 theta=0.3 usequad=true tstop=5. dtout=0.02 > log.txt
