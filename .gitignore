@@ -25,7 +25,8 @@ friction.out
 friction_5k.out
 friction_10k.out
 friction_100k.out
-friction_2Dhist.mp4
+friction_2Dhist_10k_0.05M.mp4
+friction_2Dhist_10k_0.05M_t5.mp4
 
 numpy_arrays/
 
