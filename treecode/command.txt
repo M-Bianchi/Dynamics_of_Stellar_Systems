@@ -7,3 +7,5 @@ Per 10k, b=0.1
 ./treecode in=friction.in out=friction.out dtime=0.001 eps=0.0075 theta=0.05 usequad=true tstop=20. dtout=0.01 > log.txt
 
 ./treecode in=friction.in out=friction.out dtime=0.001 eps=0.0075 theta=0.05 usequad=true tstop=4. dtout=0.002 > log.txt
+
+./treecode in=friction.in out=friction.out dtime=0.001 eps=0.0075 theta=0.05 usequad=true tstop=10. dtout=0.005 > log.txt
