@@ -1,4 +1,4 @@
-cmd /c 'nbody_sh1 -d 0.01 -o 0.01 -t 30 < twobody.in > twobody.out'
+This command can be passed to the VScode terminal
 
 cmd /c 'nbody_sh1 -d 0.01 -o 0.01 -e 0.01 -t 2 < sphere.in > sphere.out'
 

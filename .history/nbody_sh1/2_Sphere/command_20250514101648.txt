@@ -1,0 +1,5 @@
+This command can be passed to the VScode terminal
+
+cmd /c 'nbody_sh1 -d 0.01 -o 0.01 -e 0.01 -t 2 < sphere.in > sphere.out'
+
+cmd /c 'nbody_sh1 -d 0.03 -o 0.003 -e 0.01 -t 1.5 < sphere.in > sphere.out' 
