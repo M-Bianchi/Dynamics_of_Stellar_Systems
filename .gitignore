@@ -37,5 +37,7 @@ friction_angmom_10k_0.01M_90quantile.mp4
 
 numpy_arrays/
 
+/treecode/*.mp4
+
 treecode/log.txt
 log.txt

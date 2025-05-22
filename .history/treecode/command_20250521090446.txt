@@ -1,0 +1,16 @@
+cd Dynamics_of_Stellar_Systems/treecode
+
+PS 10k, b=0.1 
+./treecode in=project.in out=project.out dtime=0.001 eps=0.0075 theta=0.05 usequad=true tstop=10. dtout=0.002 > log.txt
+./treecode in=project.in out=project.out dtime=0.001 eps=0.0075 theta=0.05 usequad=true tstop=15. dtout=0.002 > log.txt
+
+
+SIS 30k, r0=0.001, R=0.15
+ ./treecode in=project.in out=project.out dtime=0.001 eps=0.05 theta=0.1 usequad=true tstop=5. dtout=0.001 > log.txt
+
+
+H 10K, a=0.05
+./treecode in=project.in out=project.out dtime=0.0001 eps=0.015 theta=0.05 usequad=true tstop=1. dtout=0.0001 > log.txt
+
+H 50K, a=0.8
+./treecode in=project.in out=project.out dtime=0.001 eps=0.08 theta=0.1 usequad=true tstop=5. dtout=0.001 > log.txt
