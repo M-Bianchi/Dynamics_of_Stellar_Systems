@@ -1,4 +1,5 @@
 *.out
+*.in
 
 nbody_sh1/ffmpeg.exe
 treecode/ffmpeg.exe
