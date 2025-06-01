@@ -9,3 +9,6 @@ H 50K, a=0.8
 ./treecode in=project.in out=project.out dtime=0.005 eps=0.1 theta=0.1 usequad=true tstop=15. dtout=0.005 > log.txt
 
 ./treecode in=project.in out=project.out dtime=0.005 eps=0.01 theta=0.1 usequad=true tstop=15. dtout=0.005 > log.txt
+
+
+./treecode in=project.in out=project.out dtime=0.001 eps=0.01 theta=0.3 usequad=true tstop=15. dtout=0.005 > log.txt
