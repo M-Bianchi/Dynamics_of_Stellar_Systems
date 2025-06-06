@@ -1,0 +1,20 @@
+cd Dynamics_of_Stellar_Systems/treecode
+
+
+SIS 50K, r0=0.001, R=3.7
+./treecode in=project.in out=project.out dtime=0.005 eps=0.1 theta=0.1 usequad=true tstop=15. dtout=0.005 > log.txt
+./treecode in=SIS_50k_dt0005.in out=project_SIS_50k_dt0005.out dtime=0.0005 eps=0.1 theta=0.3 usequad=true options=out-acc tstop=15. dtout=0.005 > SIS_50k_dt0005.txt
+
+
+H 50K, a=0.8
+./treecode in=project.in out=project.out dtime=0.005 eps=0.1 theta=0.1 usequad=true tstop=15. dtout=0.005 > log.txt
+
+./treecode in=project.in out=project.out dtime=0.005 eps=0.01 theta=0.1 usequad=true tstop=15. dtout=0.005 > log.txt
+./treecode in=project.in out=project.out dtime=0.001 eps=0.01 theta=0.3 usequad=true tstop=15. dtout=0.005 > log.txt
+
+./treecode in=H_50k_dt0005.in out=project_H_50k_dt0005.out dtime=0.0005 eps=0.1 theta=0.3 usequad=true options=out-acc tstop=15. dtout=0.005 > H_50k_dt0005.txt
+
+K 50K
+./treecode in=project.in out=project.out dtime=0.005 eps=0.1 theta=0.1 usequad=true tstop=15. dtout=0.005 > log.txt
+./treecode in=project.in out=project.out dtime=0.001 eps=0.1 theta=0.3 usequad=true tstop=15. dtout=0.005 > log.txt
+./treecode in=K_50k_dt0005.in out=project_K_50k_dt0005.out dtime=0.0005 eps=0.1 theta=0.3 usequad=true options=out-acc tstop=15. dtout=0.005 > K_50k_dt0005.txt
