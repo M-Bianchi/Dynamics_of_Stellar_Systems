@@ -126,7 +126,7 @@ The process leading to the formation and the evolution of such a bound state is 
 
 \subsection{Dynamical friction}\label{sec:introduction_dynamical_friction}
 In this work, we focus on the process that causes the MBHs to sink towards the core of the merger remnant, a mechanism known as \textbf{dynamical friction}.
-The main idea is that a massive object moving through a stellar system will transfer energy and angular momentum to the surrounding stars, slowing down and thus spiraling inward, toward the center of mass of the system. Although the object may gain speed as it moves into a region with deeper gravitational potential, this does not contradict the previous statement, since the total orbital energy is still decreasing.
+The main idea is that a massive object moving through a stellar system will transfer energy and angular momentum to the surrounding stars, slowing down and thus spiraling inward, toward the center of mass of the system. Although the object may gain speed as it moves into a region with deeper gravitational potential, this does not contradic the previous statement, since the total orbital energy is still decreasing.
 The mathematical formalization of dynamical friction was first proposed by \cite{Chandrasekhar1943}, based on the assumption that the stellar background is homogeneous and isotropic.
 In particular, the perturber is subject to a deceleration given by the following equation:
 {\fontsize{8.5pt}{8.5pt}\begin{equation}
@@ -149,7 +149,7 @@ The critical separation at which this occurs can be approximated by the \textbf{
 where $\sigma$ is the velocity dispersion of the stars surrounding the MBH.
 
 The formation of the binary causes a sudden change in the velocities of the MBHs relative to the surrounding stars, making dynamical friction inefficient.
-Moreover, once the MBHs are bound, dynamical friction acts on the center of mass of the binary, rather than on the individual MBHs.
+Morever, once the MBHs are bound, dynamical friction acts on the center of mass of the binary, rather than on the individual MBHs.
 
 The next step is to determine whether other mechanisms can reduce the binary separation further, eventually leading to coalescence.
 It is well known that compact-object binaries lose energy and angular momentum via gravitational wave emission, thus shrinking their orbits.
@@ -157,7 +157,7 @@ However, this process becomes efficient only when the binary separation is alrea
 We therefore need to identify a mechanism capable of bridging the gap from parsecs to milliparsecs.
 This is the so-called \textbf{final-parsec problem}, which has been the subject of extensive research in the past decades.
 The most promising solution is \textbf{stellar hardening}, a process in which stars undergo three-body interactions with the binary, extracting energy and angular momentum from it.
-More information on this process can be found in \cite{Quinlan1996}.
+More informations on this process can be found in \cite{Quinlan1996}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Modeling galactic bulges with Barnes-Hut treecode}\label{sec:introduction_models}
@@ -249,7 +249,7 @@ We determine the value of $\sigma$ by imposing the virial theorem:
     \sum_{j > i} - \dfrac{G m_i m_j}{r_{ij}} = E_\text{grav,tot} = -2E_\text{kin,tot} \simeq -2\dfrac{1}{2} N m <v>^2 \simeq -3 N m \sigma^2 \:. 
 \end{equation}}
 The resulting distribution is not exactly in hydrostatic equilibrium.
-However, for our purposes, it suffices that the system remains close to virial equilibrium during the inspiral of the MBHs.
+However, for our purposes, it sufficies that the system remains close to virial equilibrium during the inspiral of the MBHs.
 This can be achieved by using a sufficiently large number of particles and a small enough integration time-step.
 The results in the upper panel of Fig. \ref{fig:Lagrangian_radii} show that the inner half of the distribution remains very close to the initial conditions, while the outer layers tend to expand.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -437,7 +437,7 @@ The results of this calculation are shown in Fig. \ref{fig:Separation}, where we
 
 After the binary forms, the separation continues to decrease, as shown in Fig. \ref{fig:Separation}.
 As discussed in Sec.~\ref{sec:introduction_dynamical_friction}, dynamical friction becomes inefficient in this regime, and the binary shrinking is primarily driven by stellar hardening.
-This process leads to a gradual decrease in binary separation and is commonly described by a power-law approximation:
+This process leads to a gradual decrease in binary separation and is commonly described by a power-law:
 \begin{equation}
     \dfrac{da}{dt} \, = \, - H \dfrac{G \rho(r_\text{influence}) a^2}{\sigma(r_\text{influence})} \:\: ,
     \label{eq:hardening}
@@ -456,13 +456,12 @@ Attempts to reduce the softening radius to $10 \,\text{pc}$, on the other hand, 
 In this work, we have simulated the inspiral of two supermassive black holes (SMBHs) through the bulge of an elliptical galaxy.
 The background stellar distribution was modeled using three different potential-density pairs: a regularized isothermal sphere (RIS), the King model, and the Hernquist model.
 All three models reproduced the inspiral due to dynamical friction reasonably well, with the King and Hernquist models showing better stability in the Lagrangian radii.
-The dynamical friction acceleration was computed from the simulation data and compared with theoretical predictions based on an approximation of Chandrasekhar's formula for the case of circular orbits in a singular isothermal sphere, which yielded decent agreement, even though the Coulomb logarithm had to be adjusted to match the measured accelerations.
 The separation at which the binary formed was consistent with the theoretical estimate based on the influence radius.
 
 However, the measured hardening coefficient was significantly lower than expected, likely due to the large softening radius used in the simulation.
 Future work could focus on improving the modeling of stellar hardening by modifying the Barnes-Hut treecode to better resolve close encounters between stars and SMBHs.
 In particular, it may be possible to compute the interactions involving the SMBHs using a direct N-body method, while continuing to use a tree algorithm for the rest of the system, thus avoiding a significant increase in computational cost.
-Further improvements could be achieved by increasing the number of particles in the simulation, which would provide a more accurate representation of the stellar background and lead to a more realistic simulation of the binary hardening process.
+Further improvements could be achieved by incrementing the number of particles in the simulation, which would provide a more accurate representation of the stellar background and lead to a more realistic simulation of the binary hardening process.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

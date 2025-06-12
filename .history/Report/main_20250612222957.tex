@@ -126,7 +126,7 @@ The process leading to the formation and the evolution of such a bound state is 
 
 \subsection{Dynamical friction}\label{sec:introduction_dynamical_friction}
 In this work, we focus on the process that causes the MBHs to sink towards the core of the merger remnant, a mechanism known as \textbf{dynamical friction}.
-The main idea is that a massive object moving through a stellar system will transfer energy and angular momentum to the surrounding stars, slowing down and thus spiraling inward, toward the center of mass of the system. Although the object may gain speed as it moves into a region with deeper gravitational potential, this does not contradict the previous statement, since the total orbital energy is still decreasing.
+The main idea is that a massive object moving through a stellar system will transfer energy and angular momentum to the surrounding stars, slowing down and thus spiraling inward, toward the center of mass of the system. Although the object may gain speed as it moves into a region with deeper gravitational potential, this does not contradic the previous statement, since the total orbital energy is still decreasing.
 The mathematical formalization of dynamical friction was first proposed by \cite{Chandrasekhar1943}, based on the assumption that the stellar background is homogeneous and isotropic.
 In particular, the perturber is subject to a deceleration given by the following equation:
 {\fontsize{8.5pt}{8.5pt}\begin{equation}
@@ -149,7 +149,7 @@ The critical separation at which this occurs can be approximated by the \textbf{
 where $\sigma$ is the velocity dispersion of the stars surrounding the MBH.
 
 The formation of the binary causes a sudden change in the velocities of the MBHs relative to the surrounding stars, making dynamical friction inefficient.
-Moreover, once the MBHs are bound, dynamical friction acts on the center of mass of the binary, rather than on the individual MBHs.
+Morever, once the MBHs are bound, dynamical friction acts on the center of mass of the binary, rather than on the individual MBHs.
 
 The next step is to determine whether other mechanisms can reduce the binary separation further, eventually leading to coalescence.
 It is well known that compact-object binaries lose energy and angular momentum via gravitational wave emission, thus shrinking their orbits.
@@ -157,7 +157,7 @@ However, this process becomes efficient only when the binary separation is alrea
 We therefore need to identify a mechanism capable of bridging the gap from parsecs to milliparsecs.
 This is the so-called \textbf{final-parsec problem}, which has been the subject of extensive research in the past decades.
 The most promising solution is \textbf{stellar hardening}, a process in which stars undergo three-body interactions with the binary, extracting energy and angular momentum from it.
-More information on this process can be found in \cite{Quinlan1996}.
+More informations on this process can be found in \cite{Quinlan1996}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Modeling galactic bulges with Barnes-Hut treecode}\label{sec:introduction_models}
@@ -249,7 +249,7 @@ We determine the value of $\sigma$ by imposing the virial theorem:
     \sum_{j > i} - \dfrac{G m_i m_j}{r_{ij}} = E_\text{grav,tot} = -2E_\text{kin,tot} \simeq -2\dfrac{1}{2} N m <v>^2 \simeq -3 N m \sigma^2 \:. 
 \end{equation}}
 The resulting distribution is not exactly in hydrostatic equilibrium.
-However, for our purposes, it suffices that the system remains close to virial equilibrium during the inspiral of the MBHs.
+However, for our purposes, it sufficies that the system remains close to virial equilibrium during the inspiral of the MBHs.
 This can be achieved by using a sufficiently large number of particles and a small enough integration time-step.
 The results in the upper panel of Fig. \ref{fig:Lagrangian_radii} show that the inner half of the distribution remains very close to the initial conditions, while the outer layers tend to expand.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -267,7 +267,7 @@ These models are defined by the following distribution function:
     \label{eq:king_distribution_function}
 \end{equation}
 where $\mathcal{E} = \psi(r) - \frac{1}{2} v^2$ is the relative energy, $\rho_1$ is a density normalization, and $\sigma$ is a velocity scale parameter.
-The relative potential is defined as $\psi(r) = \Phi(r_\text{truncation}) - \Phi(r)$, such that $\psi(r_\text{truncation}) = 0$.
+The relative potential is defined a $\psi(r) = \Phi(r_\text{truncation}) - \Phi(r)$, such that $\psi(r_\text{truncation}) = 0$.
 The corresponding density profile as a function of $\psi$ is given by:
 {\fontsize{8.1pt}{8.1pt}\begin{equation}
     \rho_\text{King}(\psi) = \rho_1 \left[ e^{\psi/\sigma^2} \text{erf}\left(\dfrac{\sqrt{\psi}}{\sigma}\right) - \sqrt{\dfrac{4 \psi}{\pi \sigma^2}} \left(1+\dfrac{2 \psi}{3 \sigma^2}\right) \right] = \rho_1 \hat{\rho}(\psi) \:\:,
@@ -284,7 +284,7 @@ This can be rewritten in dimensionless form by defining the dimensionless potent
      r_0 = \sqrt{\dfrac{9 \sigma^2}{4 \pi G \rho_0}} \:\:,
     \label{eq:king_r0}
 \end{equation}
-is the core radius and $\rho_0 = \rho_1 \hat{\rho}(W_0)$ is the central density.
+and $\rho_0 = \rho_1 \hat{\rho}(W_0)$ is the central density.
 The resulting dimensionless Poisson equation is:
 {\fontsize{6.8pt}{6.8pt}\begin{equation}
     \dfrac{1}{x^2} \dfrac{d}{dx} \left(x^2 \dfrac{dW}{dx}\right) = 
@@ -325,7 +325,7 @@ The corresponding radial PDF is:
     \dfrac{2ar}{\left(r+a\right)^3}dr \:\: .
     \label{eq:hernquist_radial_pdf}
 \end{equation}
-This PDF can be integrated analytically to obtain the CDF, which can then be inverted to derive a sampling formula for the radial positions of the particles:
+This PDF can be integrated analytically to obtain the CDF, which can then be inverted to derive a sampling formula for the radial positions of particles:
 \begin{equation}
     r(P) = \dfrac{a}{P^{-1/2} - 1} \:\: ,
     \label{eq:hernquist_radial_sampling}
@@ -396,7 +396,7 @@ The theoretical dynamical friction acceleration is given by Eq. \ref{eq:chandras
 However, this equation assumes a homogeneous and isotropic background, which is not valid in our simulations, since the mass density varies by several orders of magnitude as we move toward the center.
 As a result, the distribution function depends on the radial position, and the integral in Eq. \ref{eq:chandrasekhar} must in principle be evaluated at every time-step.
 To simplify, we adopt a commonly used analytical approximation: we treat the SMBH trajectories as circular orbits in a singular isothermal sphere (SIS).
-In this case, the integrand simplifies (see Eq.~\ref{eq:velocity_pdf} and \ref{eq:sis_distribution_function}), and the integral becomes:
+In this case, the integrand simplifies (Eq.~\ref{eq:velocity_pdf} and \ref{eq:sis_distribution_function}), and the integral becomes:
 \begin{equation}
     I = 4 \pi \int_0^{v_M} f(v_m) v_m^2 dv_m = n(r) g(v_M) \:\:,
     \label{eq:chandrasekhar_sis_integral}
@@ -423,7 +423,7 @@ Sharp spikes in the measured acceleration correspond to premature encounters bet
 
 \subsection{Formation and evolution of the SMBH binary}\label{sec:analysis_binary}
 In Sec.~\ref{sec:introduction_dynamical_friction}, we mentioned that the formation of a bound state between two equal-mass SMBHs occurs when their separation is on the order of their influence radius, as defined in Eq. \ref{eq:influence_radius}.
-We have already estimated the velocity dispersion of the stellar background in Sec.~\ref{sec:analysis_dynamical_friction}.
+We have already estimated the velocity dispersion of the stellar background in Sec.~\ref{sec:introduction_dynamical_friction}.
 In particular, we measure $\sigma \approx 140 \,\text{km/s}$ in the central region, which yields an influence radius of $r_\text{inf} \approx 200 \,\text{pc}$ for a SMBH mass of $M=10^9 M_\odot$.
 A more accurate estimate of the binary formation time is obtained by computing the total energy of the SMBH system:
 \begin{equation}
@@ -456,13 +456,12 @@ Attempts to reduce the softening radius to $10 \,\text{pc}$, on the other hand, 
 In this work, we have simulated the inspiral of two supermassive black holes (SMBHs) through the bulge of an elliptical galaxy.
 The background stellar distribution was modeled using three different potential-density pairs: a regularized isothermal sphere (RIS), the King model, and the Hernquist model.
 All three models reproduced the inspiral due to dynamical friction reasonably well, with the King and Hernquist models showing better stability in the Lagrangian radii.
-The dynamical friction acceleration was computed from the simulation data and compared with theoretical predictions based on an approximation of Chandrasekhar's formula for the case of circular orbits in a singular isothermal sphere, which yielded decent agreement, even though the Coulomb logarithm had to be adjusted to match the measured accelerations.
 The separation at which the binary formed was consistent with the theoretical estimate based on the influence radius.
 
 However, the measured hardening coefficient was significantly lower than expected, likely due to the large softening radius used in the simulation.
 Future work could focus on improving the modeling of stellar hardening by modifying the Barnes-Hut treecode to better resolve close encounters between stars and SMBHs.
 In particular, it may be possible to compute the interactions involving the SMBHs using a direct N-body method, while continuing to use a tree algorithm for the rest of the system, thus avoiding a significant increase in computational cost.
-Further improvements could be achieved by increasing the number of particles in the simulation, which would provide a more accurate representation of the stellar background and lead to a more realistic simulation of the binary hardening process.
+Further improvements could be achieved by incrementing the number of particles in the simulation, which would provide a more accurate representation of the stellar background and lead to a more realistic simulation of the binary hardening process.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
