@@ -133,7 +133,7 @@ In particular, the perturber is subject to a deceleration given by the following
     \dfrac{d\vec{v}_M}{dt} \, = \, -16 \pi^2 G^2 m \left(m+M\right) \ln \Lambda \left[\int^{v_M}_0 f(v_m) v_m^2 dv_m\right] \dfrac{\vec{v}_M}{v_M^3},
     \label{eq:chandrasekhar}
 \end{equation}}
-where $\ln \Lambda$ is the Coulomb logarithm (which depends on the maximum and minimum impact parameters of the interaction), $m$ is the mass of the background particles, $M$ is the mass of the perturber, and $f(v_m)$ is the distribution function of the background particles.
+where $\ln \Lambda = \ln \left(b_\text{max}/b_\text{min}\right)$ is the Coulomb logarithm, $b$ is an impact parameter, $m$ is the mass of the background particles, $M$ is the mass of the perturber, and $f(v_m)$ is the distribution function of the background particles.
 Dynamical friction is most efficient when $v_M \simeq v_m$, which is typically the case during the inspiral, and becomes negligible for $v_M \ll v_m$ or $v_M \gg v_m$.
 
 Once the MBHs have sunk to the center of the merger remnant and their separation is such that each is primarily influenced by the gravitational pull of the other, they form a bound state.
@@ -244,10 +244,11 @@ Therefore, we approximate the RIS distribution function using that of the SIS mo
     \prod_{i=x,y,z} e^{-\frac{v_i^2}{2 \sigma^2}} v_i^2 dv_i \:\: .
     \label{eq:sis_distribution_function}
 \end{equation}
-We determine the value of $\sigma$ by imposing the virial theorem:
+We determine the value of $\sigma$ by imposing virial equilibrium:
 {\fontsize{7.7pt}{7.7pt}\begin{equation}
-    \sum_{j > i} - \dfrac{G m_i m_j}{r_{ij}} = E_\text{grav,tot} = -2E_\text{kin,tot} \simeq -2\dfrac{1}{2} N m <v>^2 \simeq -3 N m \sigma^2 \:. 
+    \sum_{j > i} - \dfrac{G m_i m_j}{r_{ij}} = E_\text{grav,tot} = -2E_\text{kin,tot} \simeq -2\dfrac{1}{2} N m <v>^2 \simeq -3 N m \sigma^2 \:, 
 \end{equation}}
+and we sample the velocity components $v_i$ from Gaussians with mean $\mu=0$ and dispersion $\sigma$.
 The resulting distribution is not exactly in hydrostatic equilibrium.
 However, for our purposes, it suffices that the system remains close to virial equilibrium during the inspiral of the MBHs.
 This can be achieved by using a sufficiently large number of particles and a small enough integration time-step.
@@ -396,7 +397,9 @@ The theoretical dynamical friction acceleration is given by Eq. \ref{eq:chandras
 However, this equation assumes a homogeneous and isotropic background, which is not valid in our simulations, since the mass density varies by several orders of magnitude as we move toward the center.
 As a result, the distribution function depends on the radial position, and the integral in Eq. \ref{eq:chandrasekhar} must in principle be evaluated at every time-step.
 To simplify, we adopt a commonly used analytical approximation: we treat the SMBH trajectories as circular orbits in a singular isothermal sphere (SIS).
-In this case, the integrand simplifies (see Eq.~\ref{eq:velocity_pdf} and \ref{eq:sis_distribution_function}), and the integral becomes:
+We are aware that this is a strong simplification, especially in the case of the King and Hernquist models, where the density and velocity profiles differ significantly from the SIS.
+Nonetheless, it provides a starting point for comparing the theoretical predictions with the results of our simulations.
+In this approximated case, the integrand simplifies (see Eq.~\ref{eq:velocity_pdf} and \ref{eq:sis_distribution_function}), and the integral becomes:
 \begin{equation}
     I = 4 \pi \int_0^{v_M} f(v_m) v_m^2 dv_m = n(r) g(v_M) \:\:,
     \label{eq:chandrasekhar_sis_integral}
@@ -414,7 +417,8 @@ Substituting this into Eq.~\ref{eq:chandrasekhar}, we obtain the approximate for
 \end{equation}
 To adapt this approximated equation to our models, we replace the density and the velocity dispersion with local estimates at the SMBH position: $n(r_i(t))$ and $\sigma(r_i(t))$.
 In particular, we compute these quantities using the nearest 10\% of the particles to each SMBH at a given time.
-The Coulomb logarithm $\ln \Lambda$ typically ranges between 5 and 15, depending on the minimum and maximum impact parameters; in our case, we set $\ln \Lambda = 3$ to match the amplitude of the measured accelerations.
+The Coulomb logarithm $\ln \Lambda$ typically ranges between 5 and 15, depending on the minimum and maximum impact parameters.
+In our case, the predictions match the measured accelerations only when this value is set to $\ln \Lambda \approx 3$, which is significantly lower than the expected range; this discrepancy may be partially due to the softening radius $\epsilon$, which effectively reduces the minimum impact parameter of the interactions.
 Despite the simplifications, the predicted dynamical friction acceleration agrees reasonably well with the net acceleration measured from the simulation. 
 Fig.~\ref{fig:Acceleration} shows the result for one SMBH.
 The discrepancy between theory and data increases as the SMBH approaches the center, particularly in the King model.
@@ -462,7 +466,9 @@ The separation at which the binary formed was consistent with the theoretical es
 However, the measured hardening coefficient was significantly lower than expected, likely due to the large softening radius used in the simulation.
 Future work could focus on improving the modeling of stellar hardening by modifying the Barnes-Hut treecode to better resolve close encounters between stars and SMBHs.
 In particular, it may be possible to compute the interactions involving the SMBHs using a direct N-body method, while continuing to use a tree algorithm for the rest of the system, thus avoiding a significant increase in computational cost.
+
 Further improvements could be achieved by increasing the number of particles in the simulation, which would provide a more accurate representation of the stellar background and lead to a more realistic simulation of the binary hardening process.
+Research-grade simulations of galactic bulges typically require $N \gtrsim 10^6$ particles, which is not feasible with the current implementation of the Barnes-Hut treecode running on a single CPU.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
